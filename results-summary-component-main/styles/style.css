@@ -18,6 +18,12 @@ main {
     background-color: aliceblue;
 }
 
+.your-result-card{
+    width: 50%;
+    height: 50vh;
+    background-color: aquamarine;
+}
+
 .attribution, .attribution a { 
     font-size: 11px; 
     text-align: center;
