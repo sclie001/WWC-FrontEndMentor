@@ -24,7 +24,7 @@ main {
     align-items: center;
     width: 50%;
     height: 50vh;
-    background-color: aquamarine;
+    background-color: hsl(252, 100%, 67%);
 }
 
 .result-description{
