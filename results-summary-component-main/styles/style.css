@@ -4,9 +4,23 @@
     font-size: 18px;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 98vh;
+}
+
+.result-summary-container{
+    width:50%;
+    height: 50vh;
+    background-color: aliceblue;
+}
+
 .attribution, .attribution a { 
     font-size: 11px; 
-    text-align: center; 
+    text-align: center;
 }
 
 .attribution a { 
