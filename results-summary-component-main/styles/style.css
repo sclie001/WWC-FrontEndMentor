@@ -28,6 +28,7 @@ main {
     width: 50%;
     height: 50vh;
     background-color: hsl(252, 100%, 67%);
+    padding: 32px;
 }
 
 .txt-result-description{
