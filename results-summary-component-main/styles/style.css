@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@0,500..800;1,500..800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     font-size: 18px;
+    font-family: "Hanken Grotesk", sans-serif;
 }
 
 main {
@@ -27,7 +30,7 @@ main {
     background-color: hsl(252, 100%, 67%);
 }
 
-.result-description{
+.txt-result-description{
     text-align: center;
 }
 
