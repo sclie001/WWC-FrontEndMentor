@@ -36,6 +36,13 @@ main {
     text-align: center;
 }
 
+.txt-your-result{
+    padding: 8px;
+    margin: 8px;
+    color: hsl(241, 100%, 89%);
+    font-weight:700;
+}
+
 .circle{
     flex: 1;
 }
