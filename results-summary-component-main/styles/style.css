@@ -29,6 +29,7 @@ main {
     width: 50%;
     background-color: hsl(252, 100%, 67%);
     padding: 32px;
+    border-radius: 24px;
 }
 
 .txt-result-description{
