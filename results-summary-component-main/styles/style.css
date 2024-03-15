@@ -44,7 +44,13 @@ main {
 }
 
 .circle{
-    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: blueviolet;
+    padding: 32px;
 }
 
 .attribution, .attribution a { 
