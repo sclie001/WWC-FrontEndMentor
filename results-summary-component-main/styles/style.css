@@ -53,6 +53,10 @@ main {
     padding: 32px;
 }
 
+.txt-great{
+    color: hsl(0, 0%, 100%);
+}
+
 .attribution, .attribution a { 
     font-size: 11px; 
     text-align: center;
