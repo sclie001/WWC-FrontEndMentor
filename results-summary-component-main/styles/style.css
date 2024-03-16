@@ -55,6 +55,8 @@ main {
 
 .txt-great{
     color: hsl(0, 0%, 100%);
+    font-size: 24px;
+    font-weight: 700;
 }
 
 .attribution, .attribution a { 
