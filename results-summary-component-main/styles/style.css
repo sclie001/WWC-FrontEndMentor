@@ -32,10 +32,6 @@ main {
     border-radius: 24px;
 }
 
-.txt-result-description{
-    text-align: center;
-}
-
 .txt-your-result{
     padding: 8px;
     margin: 8px;
@@ -62,10 +58,6 @@ main {
     line-height: 24px;
 }
 
-.txt-your-result, .txt-result-score-100, .txt-result-description{
-    color: hsl(241, 100%, 89%);
-}
-
 .txt-great{
     font-size: 24px;
     font-weight: 700;
@@ -75,6 +67,20 @@ main {
 
 .txt-result-score, .txt-great{
     color: hsl(0, 0%, 100%);
+}
+
+.txt-result-desc-container{
+    width: 84%;
+
+
+}
+
+.txt-result-description{
+    text-align: center;
+}
+
+.txt-your-result, .txt-result-score-100, .txt-result-description{
+    color: hsl(241, 100%, 89%);
 }
 
 .attribution, .attribution a { 
