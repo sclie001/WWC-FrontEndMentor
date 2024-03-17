@@ -62,7 +62,7 @@ main {
     line-height: 24px;
 }
 
-.txt-your-result, .txt-result-score-100{
+.txt-your-result, .txt-result-score-100, .txt-result-description{
     color: hsl(241, 100%, 89%);
 }
 
