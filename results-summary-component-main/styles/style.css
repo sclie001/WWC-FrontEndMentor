@@ -28,7 +28,7 @@ main {
     align-items: center;
     width: 50%;
     background-color: hsl(252, 100%, 67%);
-    padding: 32px;
+    padding: 16px 32px;
     border-radius: 24px;
 }
 
