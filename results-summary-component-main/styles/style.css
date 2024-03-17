@@ -56,6 +56,11 @@ main {
 .txt-result-score{
     font-size: 64px;
     font-weight: 800;
+    line-height: 64px;
+}
+
+.txt-result-score-100{
+    line-height: 24px;
 }
 
 .txt-great{
