@@ -90,6 +90,7 @@ main {
     justify-content: space-between;
     background-color: hsla(0, 100%, 67%, 0.1);
     border-radius: 5px;
+    padding: 8px;
 }
 
 .icon-txt-reaction{
