@@ -143,3 +143,7 @@ main {
     padding: 8px;
     margin: 8px;
 }
+
+.txt-summary, .fa-bolt{
+    padding: 4px;
+}
