@@ -150,6 +150,8 @@ button{
     border-radius: 24px;
     padding: 8px 0;
     margin: 24px;
+    background-color: hsl(224, 30%, 27%);
+    color:hsl(221, 100%, 96%);
 }
 
 
