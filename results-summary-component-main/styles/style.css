@@ -142,6 +142,10 @@ main {
     background-color: hsla(234, 85%, 45%, 0.1);
 }
 
+.txt-visual{
+    color: hsla(234, 85%, 45%, 0.6);
+}
+
 
 
 .attribution, .attribution a { 
