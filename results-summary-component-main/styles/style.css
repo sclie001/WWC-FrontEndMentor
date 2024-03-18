@@ -21,14 +21,13 @@ main {
     width:50%;
     height: 60vh;
     display: flex;
-    background-color: rgb(175, 211, 243);
+    background-color: hsl(0, 0%, 100%);
 }
 
 .your-result-card{
     align-items: center;
     background-image: linear-gradient(hsla(252, 100%, 67%, 1), hsla(241, 81%, 54%, 1));
     padding: 16px 32px;
-    border-radius: 24px;
 }
 
 .txt-your-result{
@@ -102,4 +101,8 @@ main {
     
     width: 50%;
     
+}
+
+.result-summary-container, .your-result-card{
+    border-radius: 24px;
 }
