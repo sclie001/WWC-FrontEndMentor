@@ -138,6 +138,10 @@ main {
     color: hsla(166, 100%, 37%, 0.6);
 }
 
+.visual-container{
+    background-color: hsla(234, 85%, 45%, 0.1);
+}
+
 
 
 .attribution, .attribution a { 
