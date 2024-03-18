@@ -102,7 +102,7 @@ main {
     display: inline;
 }
 
-.txt-summary, .fa-bolt, .fa-brain, .fa-comment{
+.txt-summary, .fa-bolt, .fa-brain, .fa-comment, .fa-eye{
     font-size: 14px;
 }
 
