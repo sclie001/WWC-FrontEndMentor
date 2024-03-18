@@ -87,6 +87,10 @@ main {
     padding: 32px;
 }
 
+.txt-summary{
+    color: hsl(224, 30%, 27%);
+}
+
 .attribution, .attribution a { 
     font-size: 11px; 
     text-align: center;
