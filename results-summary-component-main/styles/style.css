@@ -85,6 +85,18 @@ main {
     color: hsl(224, 30%, 27%);
 }
 
+.reaction-summary-container{
+    display: flex;
+}
+
+.icon-txt-reaction{
+    display: flex;
+}
+
+.reaction-score{
+    display: flex;
+}
+
 .attribution, .attribution a { 
     font-size: 11px; 
     text-align: center;
