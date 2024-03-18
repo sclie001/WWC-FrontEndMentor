@@ -81,10 +81,6 @@ main {
     padding: 16px;
 }
 
-.summary-title{
-    color: hsl(224, 30%, 27%);
-}
-
 .reaction-summary-container{
     display: flex;
     justify-content: space-between;
@@ -113,8 +109,13 @@ main {
 
 .txt-reaction{
     color: hsl(0, 100%, 67%);
-    font-weight: 700;
 }
+
+.summary-title, .txt-score{
+    color: hsl(224, 30%, 27%);
+}
+
+
 
 .attribution, .attribution a { 
     font-size: 11px; 
@@ -139,11 +140,14 @@ main {
 }
 
 .txt-your-result, .summary-title{
-    font-weight: 700;
     padding: 8px;
     margin: 8px;
 }
 
 .txt-summary, .fa-bolt{
     padding: 4px;
+}
+
+.txt-your-result, .summary-title, .txt-score, .txt-reaction{
+    font-weight: 700;
 }
