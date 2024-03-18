@@ -81,20 +81,23 @@ main {
     padding: 16px;
 }
 
-.reaction-summary-container{
+.skill-summary-container{
     display: flex;
     justify-content: space-between;
-    background-color: hsla(0, 100%, 67%, 0.1);
     border-radius: 5px;
     padding: 8px;
 }
 
-.icon-txt-reaction{
+.reaction-container{
+    background-color: hsla(0, 100%, 67%, 0.1);
+}
+
+.icon-txt-skill{
     display: flex;
     align-items: center;
 }
 
-.reaction-score{
+.skill-score{
     display: flex;
 }
 
