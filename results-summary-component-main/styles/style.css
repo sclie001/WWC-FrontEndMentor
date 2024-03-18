@@ -102,11 +102,10 @@ main {
 }
 
 .txt-summary{
-    font-size: 14px;
     display: inline;
 }
 
-.fa-bolt{
+.txt-summary, .fa-bolt, .fa-brain{
     font-size: 14px;
 }
 
