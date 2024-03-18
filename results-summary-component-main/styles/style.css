@@ -89,6 +89,7 @@ main {
     display: flex;
     justify-content: space-between;
     background-color: hsla(0, 100%, 67%, 0.1);
+    border-radius: 5px;
 }
 
 .icon-txt-reaction{
