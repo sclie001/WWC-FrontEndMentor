@@ -111,6 +111,11 @@ main {
     font-size: 14px;
 }
 
+.txt-reaction{
+    color: hsl(0, 100%, 67%);
+    font-weight: 700;
+}
+
 .attribution, .attribution a { 
     font-size: 11px; 
     text-align: center;
