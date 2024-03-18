@@ -86,6 +86,7 @@ main {
     justify-content: space-between;
     border-radius: 5px;
     padding: 8px;
+    margin: 8px;
 }
 
 .icon-txt-skill{
@@ -101,7 +102,7 @@ main {
     display: inline;
 }
 
-.txt-summary, .fa-bolt, .fa-brain{
+.txt-summary, .fa-bolt, .fa-brain, .fa-comment{
     font-size: 14px;
 }
 
@@ -127,6 +128,10 @@ main {
 
 .txt-memory{
     color: hsla(39, 100%, 56%, 0.6);
+}
+
+.verbal-container{
+    background-color: hsl(166, 100%, 37%, 0.1);
 }
 
 
@@ -158,10 +163,10 @@ main {
     margin: 8px;
 }
 
-.txt-summary, .fa-bolt, .fa-brain{
+.txt-summary, .fa-bolt, .fa-brain .fa-comment{
     padding: 4px;
 }
 
-.txt-your-result, .summary-title, .txt-score, .txt-reaction, .txt-memory{
+.txt-your-result, .summary-title, .txt-score, .txt-reaction, .txt-memory, .txt-verbal{
     font-weight: 700;
 }
