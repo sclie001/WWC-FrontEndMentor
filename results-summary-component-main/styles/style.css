@@ -88,10 +88,6 @@ main {
     padding: 8px;
 }
 
-.reaction-container{
-    background-color: hsla(0, 100%, 67%, 0.1);
-}
-
 .icon-txt-skill{
     display: flex;
     align-items: center;
@@ -119,6 +115,14 @@ main {
 
 .txt-percent{
     color: hsla(224, 30%, 27%, 0.5);
+}
+
+.reaction-container{
+    background-color: hsla(0, 100%, 67%, 0.1);
+}
+
+.memory-container{
+    background-color: hsla(39, 100%, 56%, 0.1);
 }
 
 
