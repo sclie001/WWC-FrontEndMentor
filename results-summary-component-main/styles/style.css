@@ -87,6 +87,7 @@ main {
 
 .reaction-summary-container{
     display: flex;
+    justify-content: space-between;
 }
 
 .icon-txt-reaction{
