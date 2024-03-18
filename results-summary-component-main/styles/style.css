@@ -155,6 +155,6 @@ main {
     padding: 4px;
 }
 
-.txt-your-result, .summary-title, .txt-score, .txt-reaction{
+.txt-your-result, .summary-title, .txt-score, .txt-reaction, .txt-memory{
     font-weight: 700;
 }
