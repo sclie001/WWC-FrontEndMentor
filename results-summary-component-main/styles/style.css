@@ -105,10 +105,6 @@ main {
     font-size: 14px;
 }
 
-.txt-reaction{
-    color: hsl(0, 100%, 67%);
-}
-
 .summary-title, .txt-score{
     color: hsl(224, 30%, 27%);
 }
@@ -121,8 +117,16 @@ main {
     background-color: hsla(0, 100%, 67%, 0.1);
 }
 
+.txt-reaction{
+    color: hsl(0, 100%, 67%);
+}
+
 .memory-container{
     background-color: hsla(39, 100%, 56%, 0.1);
+}
+
+.txt-memory{
+    color: hsla(39, 100%, 56%, 0.6);
 }
 
 
