@@ -146,6 +146,9 @@ main {
     color: hsla(234, 85%, 45%, 0.6);
 }
 
+button{
+    border-radius: 12px;
+}
 
 
 .attribution, .attribution a { 
