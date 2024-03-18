@@ -94,10 +94,19 @@ main {
 
 .icon-txt-reaction{
     display: flex;
+    align-items: center;
 }
 
 .reaction-score{
     display: flex;
+}
+
+.txt-summary{
+    font-size: 14px;
+}
+
+.fa-bolt{
+    font-size: 14px;
 }
 
 .attribution, .attribution a { 
