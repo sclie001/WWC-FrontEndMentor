@@ -25,6 +25,12 @@ main{
 
 }
 
+.stay-updated-container{
+    width: 50%;
+    margin: 8px;
+    padding: 32px 16px;
+}
+
 .title{
     font-size: 32px;
 }
