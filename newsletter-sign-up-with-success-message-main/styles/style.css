@@ -33,4 +33,7 @@ main{
 
 .title{
     font-size: 32px;
+    color: hsl(234, 29%, 20%);
+    margin-bottom: 8px;
+    padding-bottom: 8px;
 }
