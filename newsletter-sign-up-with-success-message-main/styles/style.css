@@ -63,7 +63,7 @@ input{
     box-sizing: border-box;
 }
 
-input[type=email]{
+input[type=text]{
     border: 1px solid hsl(231, 7%, 60%);
 }
 
@@ -87,7 +87,7 @@ main, input[type=submit]{
     color: hsl(234, 29%, 20%);
 }
 
-input[type=email], input[type=submit]{
+input[type=text], input[type=submit]{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
