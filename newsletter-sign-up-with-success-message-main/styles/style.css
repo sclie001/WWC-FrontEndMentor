@@ -62,7 +62,6 @@ input{
 
 input[type=text]{
     border: 1px solid hsl(231, 7%, 60%);
-    border-radius: 5px;
 }
 
 input[type=submit]{
@@ -84,4 +83,5 @@ input[type=text], input[type=submit]{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
+    border-radius: 5px;
 }
