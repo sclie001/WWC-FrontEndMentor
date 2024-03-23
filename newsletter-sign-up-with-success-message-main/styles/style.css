@@ -45,9 +45,15 @@ main{
 
 .fa-square-check{
     margin-right: 16px;
+    color:hsl(4, 100%, 67%);
 }
 
 .sell-phrase{
     margin-bottom: 8px;
     padding-bottom: 8px;
+}
+
+.space-twenty-four{
+    margin-bottom: 16px;
+    padding-bottom: 16px;
 }
