@@ -33,7 +33,6 @@ main{
 
 .title{
     font-size: 56px;
-    color: hsl(234, 29%, 20%);
     margin-bottom: 8px;
     padding-bottom: 8px;
 }
@@ -60,4 +59,10 @@ main{
 
 input[type=text]{
     width:100%;
+}
+
+/*chaining styles*/
+
+.title, label {
+    color: hsl(234, 29%, 20%);
 }
