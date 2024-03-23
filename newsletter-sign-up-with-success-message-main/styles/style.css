@@ -12,7 +12,10 @@ main{
     width: 100%;
     height: 98vh;
 }
+
+/*container holding stay-updated container and image container*/
 .container{
+    display: flex;
     width: 60%;
     background-color: hsl(0, 0%, 100%);
     margin: 8px;
@@ -21,6 +24,8 @@ main{
     font-weight: 700;
 
 }
+
+/*stay-updated container*/
 
 .stay-updated-container{
     width: 50%;
@@ -67,7 +72,7 @@ input[type=submit]{
     font-weight: 700;
 }
 
-/*chaining styles*/
+/*--chaining styles--*/
 
 main, input[type=submit]{
     background-color: hsl(234, 29%, 20%);
