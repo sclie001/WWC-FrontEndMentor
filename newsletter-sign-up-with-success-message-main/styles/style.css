@@ -57,6 +57,10 @@ main{
     padding-bottom: 16px;
 }
 
+input{
+    box-sizing: border-box;
+}
+
 input[type=text]{
     border: 1px solid hsl(231, 7%, 60%);
     border-radius: 5px;
