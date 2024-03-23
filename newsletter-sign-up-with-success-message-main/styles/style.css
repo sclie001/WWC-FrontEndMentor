@@ -57,3 +57,7 @@ main{
     margin-bottom: 16px;
     padding-bottom: 16px;
 }
+
+input[type=text]{
+    width:100%;
+}
