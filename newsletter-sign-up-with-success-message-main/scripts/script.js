@@ -7,13 +7,17 @@ function validateEmail(e) {
 
     if(email.validity.valueMissing || email.validity.typeMismatch){
         console.log(email.validity.valid);
-        errorMessage.innerHTML = "Valid email required";
+        errorMessage.innerHTML = setErrorMessage();
         email.focus();
         return false;
     }
 }
 
+function setErrorMessage(){
+    errorText = "Valid email required";
+    return errorText;
 
+}
 subscribeBtn.addEventListener("click", validateEmail);
 
 
