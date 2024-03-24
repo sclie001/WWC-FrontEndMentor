@@ -10,7 +10,7 @@ function validateEmail(e) {
         errorMessage.innerHTML = setErrorMessage();
         // email.style.backgroundColor = "hsla(4, 100%, 67%, 0.2)";
         email.style.backgroundColor = setEmailBackgroundColor(email);
-        email.style.border = "1px solid hsl(4, 100%, 67%)";
+        email.style.border = setEmailBorder();
         return false;
     }
     else{
@@ -28,6 +28,12 @@ function setErrorMessage(){
 function setEmailBackgroundColor(){
     color = "hsla(4, 100%, 67%, 0.2)";
     return color;
+}
+
+/**Set email input box's border styles */
+function setEmailBorder(){
+    border = "1px solid hsl(4, 100%, 67%)";
+    return border;
 }
 
 subscribeBtn.addEventListener("click", validateEmail);
