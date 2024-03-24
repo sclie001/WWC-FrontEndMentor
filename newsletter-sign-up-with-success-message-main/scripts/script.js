@@ -1,6 +1,21 @@
-const errorMessage = document.getElementById("error-msg");
 const subscribeBtn = document.getElementById("subscribe-btn");
 
-//hide error message until error found
-errorMessage.style.display = 'none';
+function validateEmail(e) {
+    e.preventDefault();
+    const email = document.getElementById("email-address");
+    const errorMessage = document.getElementById("error-msg");
+
+    if(email.validity.valueMissing || email.validity.typeMismatch){
+        console.log(email.validity.valid);
+        errorMessage.innerHTML = "Valid email required";
+        email.focus();
+        return false;
+    }
+}
+
+
+subscribeBtn.addEventListener("click", validateEmail);
+
+
+
 
