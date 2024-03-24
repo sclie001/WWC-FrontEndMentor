@@ -67,6 +67,11 @@ input[type=email]{
     border: 1px solid hsl(231, 7%, 60%);
 }
 
+.email-label-error-message-container{
+    display: flex;
+    justify-content: space-between;
+}
+
 input[type=submit]{
     color: hsl(0, 0%, 100%);
     font-weight: 700;
