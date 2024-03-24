@@ -46,7 +46,6 @@ main{
 
 .fa-square-check{
     margin-right: 16px;
-    color:hsl(4, 100%, 67%);
 }
 
 .sell-phrase{
@@ -90,6 +89,10 @@ main, input[type=submit]{
 
 .title, label {
     color: hsl(234, 29%, 20%);
+}
+
+.fa-square-check, .error-msg{
+    color:hsl(4, 100%, 67%);
 }
 
 input[type=email], input[type=submit]{
