@@ -8,8 +8,14 @@ function validateEmail(e) {
     if(email.validity.valueMissing || email.validity.typeMismatch){
         console.log(email.validity.valid);
         errorMessage.innerHTML = setErrorMessage();
-        email.focus();
+        // email.style.backgroundColor = "hsla(4, 100%, 67%, 0.2)";
+        email.style.backgroundColor = setEmailBackgroundColor(email);
+        email.style.border = "1px solid hsl(4, 100%, 67%)";
         return false;
+    }
+    else{
+        //send user to success page
+        return true;
     }
 }
 
@@ -18,6 +24,12 @@ function setErrorMessage(){
     return errorText;
 
 }
+
+function setEmailBackgroundColor(){
+    color = "hsla(4, 100%, 67%, 0.2)";
+    return color;
+}
+
 subscribeBtn.addEventListener("click", validateEmail);
 
 
