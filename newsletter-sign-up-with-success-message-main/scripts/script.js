@@ -1,5 +1,11 @@
 const subscribeBtn = document.getElementById("subscribe-btn");
 
+/**
+ * Validate user input for email input element
+ * @param {*} e 
+ * @returns True: user entered valid email
+ *          False: user entered invalid email
+ */
 function validateEmail(e) {
     e.preventDefault();
     const email = document.getElementById("email-address");
@@ -19,18 +25,28 @@ function validateEmail(e) {
     }
 }
 
+/**
+ * Set error message when email element has invalid input
+ * @returns errorText
+ */
 function setErrorMessage(){
     errorText = "Valid email required";
     return errorText;
 
 }
 
+/**
+ * Set email input element's background color
+ * @returns color
+ */
 function setEmailBackgroundColor(){
     color = "hsla(4, 100%, 67%, 0.2)";
     return color;
 }
 
-/**Set email input box's border styles */
+/**Set email input element's border styles
+ * @returns border
+ */
 function setEmailBorder(){
     border = "1px solid hsl(4, 100%, 67%)";
     return border;
