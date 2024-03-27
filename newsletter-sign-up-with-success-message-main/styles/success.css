@@ -48,3 +48,7 @@ button{
     color: hsl(0, 0%, 100%);
     font-weight: 700;
 }
+
+button:active{
+    background-image: linear-gradient(to right, hsl(4, 100%, 66%), orange);
+}
