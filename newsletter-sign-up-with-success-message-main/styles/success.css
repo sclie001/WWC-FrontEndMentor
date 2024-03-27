@@ -1,0 +1,50 @@
+/*takes styling from style.css for same classes*/
+
+.container-thirty{
+    width: 30%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.success-container{
+    width:80%;
+    background-color: hsl(0, 0%, 100%);
+    font-family: "Roboto", sans-serif;
+    padding: 18px 48px 48px 48px;
+    
+}
+
+#success{
+    font-size: 48px;
+    padding: 8px 8px 8px 0;
+    margin: 8px 8px 8px 0;
+}
+
+.title-success{
+    line-height: 0.98;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.confirmation-note{
+    font-size: 16px;
+    color: hsl(235, 18%, 26%);
+    margin: 8px 0;
+    padding: 8px 0 16px 0;
+}
+
+span{
+    font-weight: 700;
+    color: hsl(234, 29%, 20%);
+}
+
+button{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 5px;
+    background-color: hsl(234, 29%, 20%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
