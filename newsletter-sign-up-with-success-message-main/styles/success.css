@@ -4,7 +4,6 @@
     width:40%;
     background-color: hsl(0, 0%, 100%);
     font-family: "Roboto", sans-serif;
-    font-weight: 700;
     padding: 18px 48px 48px 48px;
     
 }
@@ -17,6 +16,7 @@
 
 .title-success{
     line-height: 0.98;
+    font-weight: 700;
 }
 
 .confirmation-note{
