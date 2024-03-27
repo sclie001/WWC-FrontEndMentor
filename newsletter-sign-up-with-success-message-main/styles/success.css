@@ -18,3 +18,8 @@
 .title-success{
     line-height: 0.98;
 }
+
+.confirmation-note{
+    font-size: 16px;
+    color: hsl(235, 18%, 26%);
+}
