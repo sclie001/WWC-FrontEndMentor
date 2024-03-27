@@ -24,3 +24,8 @@
     font-size: 16px;
     color: hsl(235, 18%, 26%);
 }
+
+span{
+    font-weight: 700;
+    color: hsl(234, 29%, 20%);
+}
