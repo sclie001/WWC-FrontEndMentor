@@ -21,6 +21,7 @@ function validateEmail(e) {
     }
     else{
         //send user to success page
+        location.replace("./success.html");
         return true;
     }
 }
