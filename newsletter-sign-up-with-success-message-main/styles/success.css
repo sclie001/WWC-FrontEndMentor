@@ -7,11 +7,11 @@
     align-items: center;
     margin: 8px;
     padding: 16px;
+    background-color: hsl(0, 0%, 100%);
 }
 
 .success-container{
     width:80%;
-    background-color: hsl(0, 0%, 100%);
     font-family: "Roboto", sans-serif;
     padding: 18px 48px 48px 48px;
     
