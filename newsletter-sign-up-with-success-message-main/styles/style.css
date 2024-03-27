@@ -79,6 +79,10 @@ input[type=submit]{
     background-color: hsl(234, 29%, 20%);
 }
 
+input[type=submit]:active{
+    background-image: linear-gradient(to right, hsl(4, 100%, 66%), orange);
+}
+
 /*--chaining styles--*/
 
 .sell-phrase, .features{
