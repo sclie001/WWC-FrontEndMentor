@@ -1,8 +1,10 @@
 /*takes styling from style.css for same classes*/
 
-.fourty-width{
-    width: 40%;
-
+.container-thirty{
+    width: 30%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .success-container{
