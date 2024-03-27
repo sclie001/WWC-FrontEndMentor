@@ -10,6 +10,7 @@ function validateEmail(e) {
     e.preventDefault();
     const email = document.getElementById("email-address");
     const errorMessage = document.getElementById("error-msg");
+    
 
     if(email.validity.valueMissing || email.validity.typeMismatch){
         console.log(email.validity.valid);
@@ -21,6 +22,12 @@ function validateEmail(e) {
     }
     else{
         //send user to success page
+        const emailAddress = email.value;
+        const userEmail = document.getElementById("user-email");
+        console.log(emailAddress + " " + typeof(emailAddress));
+        console.log(userEmail.innerText + " " + typeof(userEmail));
+        userEmail.textContent = emailAddress;
+
         location.replace("./success.html");
         return true;
     }
