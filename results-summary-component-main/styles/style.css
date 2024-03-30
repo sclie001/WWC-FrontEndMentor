@@ -197,11 +197,12 @@ button{
     }
 
     .result-summary-container{
-        width:100%;
+        width: 100%;
         flex-direction: column;
     }
 
     .your-result-card{
-        width: 100%;
+        width: 87%;
+        
     }
 }
