@@ -196,4 +196,9 @@ button{
     main{
         height: 98lvh;
     }
+
+    .result-summary-container{
+        width:100%;
+        flex-direction: column;
+    }
 }
