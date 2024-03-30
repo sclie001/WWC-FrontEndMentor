@@ -199,6 +199,7 @@ button{
     .result-summary-container{
         width: 100%;
         flex-direction: column;
+        box-shadow: none;
     }
 
     .your-result-card{
