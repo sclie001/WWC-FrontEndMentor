@@ -200,6 +200,7 @@ button{
         width: 100%;
         flex-direction: column;
         box-shadow: none;
+        border-radius: 0%;
     }
 
     .your-result-card{
