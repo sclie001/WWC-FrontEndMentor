@@ -189,3 +189,11 @@ button{
 .txt-your-result, .summary-title, .txt-score, .txt-reaction, .txt-memory, .txt-verbal{
     font-weight: 700;
 }
+
+@media screen and (max-width: 768px) {
+    /*mobile phones*/
+
+    main{
+        height: 98lvh;
+    }
+}
