@@ -210,5 +210,6 @@ button{
 
     .summary-card{
         width: 93%;
+        border-radius: 0%;
     }
 }
