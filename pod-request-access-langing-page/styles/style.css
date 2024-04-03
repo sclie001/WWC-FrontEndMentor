@@ -5,6 +5,7 @@ body{
     padding: 0;
 }
 
+/*main container holding logo-title container and phrase-desc-form container*/
 .container{
     display: flex;
     flex-direction: column;
@@ -27,4 +28,8 @@ body{
     font-family: "Chivo", sans-serif;
     font-size: 30px;
     font-weight: 800;
+}
+
+.phrase{
+    font-size: 26px;
 }
