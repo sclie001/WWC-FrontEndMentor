@@ -16,7 +16,7 @@ body{
 .icon-title{
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 8px;
     padding: 8px;
-    margin: 8px;
 }
