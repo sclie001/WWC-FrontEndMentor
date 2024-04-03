@@ -33,6 +33,8 @@ body{
 
 .phrase-container{
     text-align: center;
+    font-weight: 100;
+    line-height: 38px;
 }
 
 .phrase{
