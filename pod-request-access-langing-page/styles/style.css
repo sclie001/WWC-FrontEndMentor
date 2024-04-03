@@ -47,6 +47,10 @@ body{
     color: white;
 }
 
+.container-description{
+    text-align: center;
+}
+
 .description{
     color:#C2CBE5;
 
