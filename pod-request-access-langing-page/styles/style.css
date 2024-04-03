@@ -30,6 +30,10 @@ body{
     font-weight: 800;
 }
 
+.phrase-container{
+    text-align: center;
+}
+
 .phrase{
     font-size: 26px;
     color:#54E6AF;
