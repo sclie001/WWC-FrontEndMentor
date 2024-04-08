@@ -64,6 +64,9 @@ body{
 .container-pod-icons{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin: 8px;
+    padding: 8px;
 }
 
 .fa-spotify, .text-icon{
@@ -75,22 +78,10 @@ body{
     text-transform: lowercase;
 }
 
-.container-spotify{
-    margin: 0 8px 0 0;
-}
-
-.logo-apple{
-    margin: 0 8px 0 8px;
-}
-
 .container-google-logo{
     width: 73px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 8px 0 8px;
 }
 
-.logo-pocketcasts{
-    margin: 0 0 0 8px;
-}
