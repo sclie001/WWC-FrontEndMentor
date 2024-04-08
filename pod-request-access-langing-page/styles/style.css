@@ -61,6 +61,11 @@ body{
 }
 
 /*podcast icons*/
+.container-pod-icons{
+    display: flex;
+    align-items: center;
+}
+
 .fa-spotify, .text-icon{
     color:rgba(90, 102, 138, 0.7);
 }
