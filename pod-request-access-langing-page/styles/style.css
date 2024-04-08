@@ -61,6 +61,11 @@ body{
 }
 
 /*podcast icons*/
-.fa-spotify{
+.fa-spotify, .text-icon{
     color:#5A668A;
+}
+
+.text-icon{
+    font-size:11px;
+    text-transform: lowercase;
 }
