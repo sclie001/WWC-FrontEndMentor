@@ -74,3 +74,11 @@ body{
     font-size:11px;
     text-transform: lowercase;
 }
+
+.container-spotify{
+    margin: 0 8px 0 0;
+}
+
+.logo-apple{
+    margin: 0 0 0 8px;
+}
