@@ -62,7 +62,7 @@ body{
 
 /*podcast icons*/
 .fa-spotify, .text-icon{
-    color:#5A668A;
+    color:rgba(90, 102, 138, 0.7);
 }
 
 .text-icon{
