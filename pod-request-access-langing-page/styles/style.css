@@ -82,3 +82,10 @@ body{
 .logo-apple{
     margin: 0 0 0 8px;
 }
+
+.container-google-logo{
+    width: 73px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
