@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..800;1,100..800&display=swap');
 
 body{
     margin: 0;
@@ -109,4 +109,8 @@ body{
     padding: 12px 26px;
     border: none;
     border-radius: 25px;
+}
+
+.btn-req-access{
+    background-color: #54E6AF;
 }
