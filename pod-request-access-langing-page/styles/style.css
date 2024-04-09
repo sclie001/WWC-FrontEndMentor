@@ -4,6 +4,7 @@ body{
     margin: 0;
     padding: 0;
     background-image: url("../assets/Bitmap.png");
+    background-repeat:no-repeat;
 }
 
 /*container holding title, logo, phrase, description, podcast logos, and form*/
