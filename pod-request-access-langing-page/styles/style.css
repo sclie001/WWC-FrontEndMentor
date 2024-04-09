@@ -3,17 +3,18 @@
 body{
     margin: 0;
     padding: 0;
+    background-image: url("../assets/Bitmap.png");
+    background-repeat:no-repeat;
 }
 
 /*container holding title, logo, phrase, description, podcast logos, and form*/
 .container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding: 48px 16px;
+    height: 95lvh;
+    padding: 16px;
     font-family: "Chivo", sans-serif;
-    background-color: black;
 }
 
 /*container holding logo and title*/
@@ -21,7 +22,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 8px;
+    margin: 32px 8px 8px 8px;
     padding: 8px;
 }
 
