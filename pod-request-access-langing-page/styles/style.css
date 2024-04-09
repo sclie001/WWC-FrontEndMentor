@@ -8,9 +8,9 @@ body{
 .container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding: 48px 16px;
+    height: 95lvh;
+    padding: 16px;
     font-family: "Chivo", sans-serif;
     background-color: black;
 }
