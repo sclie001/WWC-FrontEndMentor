@@ -3,6 +3,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-image: url("../assets/Bitmap.png");
 }
 
 /*container holding title, logo, phrase, description, podcast logos, and form*/
@@ -13,7 +14,6 @@ body{
     height: 95lvh;
     padding: 16px;
     font-family: "Chivo", sans-serif;
-    background-color: black;
 }
 
 /*container holding logo and title*/
