@@ -98,7 +98,6 @@ body{
     display: inline-block;
     box-sizing: border-box;
     background-color: #2C344B;
-    margin: 8px 0;
 }
 
 ::placeholder{
@@ -112,9 +111,9 @@ body{
     border-radius: 25px;
     font-size: 14px;
     font-weight: 700;
+    margin: 8px 0;
 }
 
 .btn-req-access{
     background-color: #54E6AF;
-    margin: 8px 0;
 }
