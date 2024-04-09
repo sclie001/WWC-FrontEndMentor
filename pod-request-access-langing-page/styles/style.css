@@ -5,6 +5,7 @@ body{
     padding: 0;
 }
 
+/*container holding title, logo, phrase, description, podcast logos, and form*/
 .container{
     display: flex;
     flex-direction: column;
@@ -15,6 +16,7 @@ body{
     background-color: black;
 }
 
+/*container holding logo and title*/
 .icon-title{
     display: flex;
     justify-content: center;
@@ -31,6 +33,7 @@ body{
     color: white;
 }
 
+/*container holding phrase*/
 .phrase-container{
     text-align: center;
     font-weight: 100;
@@ -47,6 +50,7 @@ body{
     color: white;
 }
 
+/*container holding description*/
 .container-description{
     text-align: center;
     line-height: 25px;
