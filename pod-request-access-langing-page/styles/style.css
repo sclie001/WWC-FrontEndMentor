@@ -102,5 +102,8 @@ body{
     background-color: #2C344B;
     border: none;
     border-radius: 25px;
+}
 
+::placeholder{
+    color: rgba(255, 255, 255, 0.5);
 }
