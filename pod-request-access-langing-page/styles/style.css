@@ -109,6 +109,8 @@ body{
     padding: 12px 26px;
     border: none;
     border-radius: 25px;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 .btn-req-access{
