@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..800;1,100..800&display=swap');
 
 body{
     margin: 0;
@@ -89,3 +89,33 @@ body{
     justify-content: space-between;
 }
 
+/*container holding form elements*/
+.form-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+}
+
+.email{
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #2C344B;
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-req-access, .email{
+    width: 100%;
+    padding: 16px 26px;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 8px 0;
+}
+
+.btn-req-access{
+    background-color: #54E6AF;
+}
