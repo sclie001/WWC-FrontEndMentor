@@ -54,7 +54,7 @@ body{
 .container-description{
     text-align: center;
     line-height: 25px;
-    margin: 0 8px 0 8px;
+    margin: 0 8px 16px 8px;
     padding: 0 38px 0 38px;
 }
 
@@ -69,7 +69,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 8px 8px 32px 8px;
+    margin: 24px 8px 32px 8px;
     padding: 8px;
 }
 
