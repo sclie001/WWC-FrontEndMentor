@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..800;1,100..800&display=swap');
 
 body{
     margin: 0;
     padding: 0;
 }
 
+/*container holding title, logo, phrase, description, podcast logos, and form*/
 .container{
     display: flex;
     flex-direction: column;
@@ -15,6 +16,7 @@ body{
     background-color: black;
 }
 
+/*container holding logo and title*/
 .icon-title{
     display: flex;
     justify-content: center;
@@ -29,4 +31,91 @@ body{
     font-size: 30px;
     font-weight: 800;
     color: white;
+}
+
+/*container holding phrase*/
+.phrase-container{
+    text-align: center;
+    font-weight: 100;
+    line-height: 38px;
+}
+
+.phrase{
+    font-size: 26px;
+    color:#54E6AF;
+    text-transform: uppercase;
+}
+
+.phase-everywhere{
+    color: white;
+}
+
+/*container holding description*/
+.container-description{
+    text-align: center;
+    line-height: 25px;
+    margin: 0 8px 16px 8px;
+    padding: 0 39px 0 39px;
+}
+
+.description{
+    color:#C2CBE5;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+/*podcast icons*/
+.container-pod-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 24px 8px 32px 8px;
+    padding: 8px;
+}
+
+.fa-spotify, .text-icon{
+    color:rgba(90, 102, 138, 0.7);
+}
+
+.text-icon{
+    font-size:11px;
+    text-transform: lowercase;
+}
+
+.container-google-logo{
+    width: 73px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*container holding form elements*/
+.form-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+}
+
+.email{
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #2C344B;
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-req-access, .email{
+    width: 100%;
+    padding: 16px 26px;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 8px 0;
+}
+
+.btn-req-access{
+    background-color: #54E6AF;
 }
