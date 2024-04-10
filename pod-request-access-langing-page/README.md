@@ -16,7 +16,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [@sclie001](https://sclie001.github.io/WWC-FrontEndMentor/pod-request-access-landing-page-main/)
+- Live Site URL: [@sclie001](https://sclie001.github.io/WWC-FrontEndMentor/pod-request-access-langing-page/)
 
 ## My process
 Started building mobile UI. Then was planning to work on tablet UI, and finally the desktop UI.
