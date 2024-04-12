@@ -101,6 +101,7 @@ body{
     display: inline-block;
     box-sizing: border-box;
     background-color: #2C344B;
+    color: #FFFFFF;
 }
 
 ::placeholder{
@@ -119,4 +120,10 @@ body{
 
 .btn-req-access{
     background-color: #54E6AF;
+}
+
+.email-error-msg{
+    color: #FB3E3E;
+    font-size: 12px;
+    padding: 0 28px;
 }
