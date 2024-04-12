@@ -5,6 +5,7 @@ body{
     padding: 0;
 }
 
+/*background image blended with background color*/
 .img-container{
     background-repeat: no-repeat;
     background-image: url("../assets/Bitmap.png"); 
