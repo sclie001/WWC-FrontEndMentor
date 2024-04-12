@@ -8,14 +8,20 @@ function validateEmail(e){
     const error_msg = document.getElementById('error-msg');
 
     if(email.validity.valueMissing || email.validity.typeMismatch){
-        console.log(email.validity.valid);
-        error_msg.textContent = "Oops! Please, check your email";
+        error_msg.textContent = setErrorMessage();
+        
         
         return false;
     }
     else{
         return true;
     }
+}
+
+/**set error message */
+function setErrorMessage(){
+    errorText = "Oops! Please, check your email";
+    return errorText;
 }
 
 btn_req_access.addEventListener('click', validateEmail);
