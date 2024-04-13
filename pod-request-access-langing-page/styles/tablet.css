@@ -11,7 +11,7 @@ body{
     padding: 0 0 24px 24px;
 }
 
-/* .container-tablet-img{
+.container-tablet-img{
     width: 491px;
     height: 767px;
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@ body{
     top: 0;
     right: 0;
     
-} */
+}
 
 .icon-title{
     display: flex;
@@ -51,6 +51,7 @@ body{
 
 .phrase-container{
     font-size: 48px;
+    font-weight: 100;
     text-transform: uppercase;
 }
 
