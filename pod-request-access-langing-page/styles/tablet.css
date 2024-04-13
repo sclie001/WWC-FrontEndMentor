@@ -49,6 +49,10 @@ body{
     background: #121725;
 }
 
+.phrase-container{
+    text-transform: uppercase;
+}
+
 .phrase{
     color:#54E6AF;
     
