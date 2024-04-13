@@ -16,3 +16,8 @@ body{
     right: 0;
     
 }
+
+.icon-title{
+    display: flex;
+    align-items: center;
+}
