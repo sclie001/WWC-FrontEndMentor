@@ -3,6 +3,10 @@ body{
     padding: 0;
 }
 
+.container{
+    background-color: #121725;
+}
+
 .container-tablet-img{
     width: 491px;
     height: 767px;
