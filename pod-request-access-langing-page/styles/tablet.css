@@ -9,6 +9,7 @@ body{
 .container{
     background-color: #121725;
     font-family: "Chovio", sans-serif;
+    padding: 0 0 24px 24px;
 }
 
 .container-tablet-img{
