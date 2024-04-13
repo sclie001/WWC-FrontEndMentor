@@ -144,3 +144,7 @@ body{
     font-size: 12px;
     padding: 0 28px;
 }
+
+.form-container-tablet{
+    display: none;
+}

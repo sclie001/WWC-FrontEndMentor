@@ -76,3 +76,7 @@ body{
 .description{
     margin: 4px 0;
 }
+
+.form-container{
+    display: none;
+}
