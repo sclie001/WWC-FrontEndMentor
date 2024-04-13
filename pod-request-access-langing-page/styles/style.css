@@ -24,6 +24,10 @@ body{
     font-family: "Chivo", sans-serif;
 }
 
+.container-tablet-img{
+    display: none;
+}
+
 /*container holding logo and title*/
 .icon-title{
     display: flex;

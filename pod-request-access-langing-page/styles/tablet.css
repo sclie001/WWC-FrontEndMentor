@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container-tablet-img{
+    width: 491px;
+    height: 767px;
+    background-repeat: no-repeat;
+    background-image: url("../assets/Bitmap-tablet.png");
+    background-color: #54E6AF;
+    opacity: 0.9;
+    background-blend-mode: multiply;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
