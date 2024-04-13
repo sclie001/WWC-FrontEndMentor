@@ -82,6 +82,9 @@ body{
     display: none;
 }
 
+.email-tablet{
+    box-sizing: border-box;
+}
 .email-tablet, .btn-req-access-tablet{
     width: 100%;
 }
