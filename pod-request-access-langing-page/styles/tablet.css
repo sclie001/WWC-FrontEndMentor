@@ -7,7 +7,6 @@ body{
 }
 
 .container{
-    background-color: #121725;
     font-family: "Chovio", sans-serif;
     padding: 0 0 24px 24px;
 }
@@ -38,4 +37,9 @@ body{
     font-size: 30px;
     font-weight: 800;
     color: white;
+}
+
+/*chaining formats*/
+.container, .container-phrase-desc-form{
+    background: #121725;
 }
