@@ -29,6 +29,7 @@ body{
 .icon-title{
     display: flex;
     align-items: center;
+    padding: 24px 0 24px 0;
 }
 
 .title{
