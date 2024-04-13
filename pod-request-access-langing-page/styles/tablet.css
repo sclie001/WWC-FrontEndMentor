@@ -39,6 +39,11 @@ body{
     color: white;
 }
 
+.container-phrase-desc-form{
+    width: 85%;
+    
+}
+
 /*chaining formats*/
 .container, .container-phrase-desc-form{
     background: #121725;
