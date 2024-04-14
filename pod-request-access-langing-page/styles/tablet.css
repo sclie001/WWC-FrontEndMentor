@@ -104,6 +104,10 @@ body{
     background-color: #54E6AF;
 }
 
+.btn-req-access-tablet:hover{
+    background-color: #B3FFE2;
+}
+
 .email-tablet, .btn-req-access-tablet{
     padding: 16px 24px;
     font-family: "Chivo", sans-serif;
