@@ -87,6 +87,10 @@ body{
     box-sizing: border-box;
 }
 
+.btn-req-access-tablet{
+    background-color: #54E6AF;
+}
+
 .email-tablet, .btn-req-access-tablet{
     padding: 16px 24px;
 
