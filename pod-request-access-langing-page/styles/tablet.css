@@ -86,3 +86,9 @@ body{
     display: inline-block;
     box-sizing: border-box;
 }
+
+.email-tablet, .btn-req-access-tablet{
+    padding: 16px 24px;
+    border-radius: 25px;
+
+}
