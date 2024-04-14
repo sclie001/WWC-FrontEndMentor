@@ -84,10 +84,13 @@ body{
 
 .form-container-tablet{
     width: 66%;
+}
+
+.input-email-btn{
     padding: 4px;
 }
 
-.form-container-tablet form{
+.input-email-btn form{
     display: flex;
     justify-content: space-between;
 }
@@ -117,11 +120,11 @@ body{
     
 }
 
-.email-tablet, .btn-req-access-tablet, .form-container-tablet{
+.email-tablet, .btn-req-access-tablet, .input-email-btn{
     border-radius: 25px;
     border: none;
 }
 
-.form-container-tablet, .email-tablet{
+.input-email-btn, .email-tablet{
     background-color: #2C344B;
 }
