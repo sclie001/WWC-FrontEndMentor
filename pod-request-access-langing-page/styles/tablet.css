@@ -93,8 +93,8 @@ body{
 
 .email-tablet, .btn-req-access-tablet{
     padding: 16px 24px;
-    font-size: 14px;
-
+    font-family: "Chivo", sans-serif;
+    
 }
 
 .email-tablet, .btn-req-access-tablet, .form-container-tablet{
