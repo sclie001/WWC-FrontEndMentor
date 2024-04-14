@@ -128,3 +128,10 @@ body{
 .input-email-btn, .email-tablet{
     background-color: #2C344B;
 }
+
+.error-msg-md-lg-scrn{
+    margin: 4px 0 16px 0;
+    color: #FB3E3E;
+    font-size: 12px;
+    padding: 0 28px;
+}
