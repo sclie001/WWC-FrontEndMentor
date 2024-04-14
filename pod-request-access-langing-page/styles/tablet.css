@@ -41,7 +41,6 @@ body{
 
 .container-phrase-desc-form{
     width: 85%;
-    
 }
 
 
@@ -85,6 +84,11 @@ body{
 .email-tablet{
     display: inline-block;
     box-sizing: border-box;
+}
+
+.form-container-tablet{
+    width: 66%;
+    padding: 4px;
 }
 
 .btn-req-access-tablet{
