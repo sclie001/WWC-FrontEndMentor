@@ -95,6 +95,10 @@ body{
     display: inline-block;
 }
 
+::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+}
+
 .btn-req-access-tablet{
     background-color: #54E6AF;
 }
