@@ -82,6 +82,10 @@ body{
     display: none;
 }
 
+.form-container-tablet{
+    background-color: #2C344B;
+}
+
 .email-tablet{
     display: inline-block;
     box-sizing: border-box;
