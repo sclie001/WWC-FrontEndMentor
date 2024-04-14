@@ -81,14 +81,19 @@ body{
     display: none;
 }
 
-.email-tablet{
-    display: inline-block;
-    box-sizing: border-box;
-}
-
 .form-container-tablet{
     width: 66%;
     padding: 4px;
+}
+
+.form-container-tablet form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.email-tablet{
+    display: inline-block;
+    box-sizing: border-box;
 }
 
 .btn-req-access-tablet{
