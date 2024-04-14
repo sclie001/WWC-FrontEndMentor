@@ -93,6 +93,7 @@ body{
 
 .email-tablet{
     display: inline-block;
+    color: white;
 }
 
 ::placeholder{
