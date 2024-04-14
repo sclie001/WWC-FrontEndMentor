@@ -66,6 +66,7 @@ body{
 }
 
 .container-description{
+    width: 73%;
     color: #C2CBE5;
     font-size: 18px;
     font-weight: 100;
