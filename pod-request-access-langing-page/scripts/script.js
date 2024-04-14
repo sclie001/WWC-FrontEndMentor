@@ -19,6 +19,7 @@ function validateEmail(e){
         return false;
     }
     else{
+        error_msg.textContent = "";
         return true;
     }
 }
