@@ -82,10 +82,6 @@ body{
     display: none;
 }
 
-.form-container-tablet{
-    background-color: #2C344B;
-}
-
 .email-tablet{
     display: inline-block;
     box-sizing: border-box;
@@ -99,4 +95,8 @@ body{
 .email-tablet, .btn-req-access-tablet, .form-container-tablet{
     border-radius: 25px;
     border: none;
+}
+
+.form-container-tablet, .email-tablet{
+    background-color: #2C344B;
 }
