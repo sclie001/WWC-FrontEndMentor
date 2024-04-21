@@ -12,9 +12,9 @@ main{
 }
 
 /*Extra small to large phones*/
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 280px) {
     main{
-        background-image: url(../assets/home/background-home-mobile.jpg);
+        background-image: url("../assets/home/background-home-mobile.jpg");
         height: 932px;
     }
     
