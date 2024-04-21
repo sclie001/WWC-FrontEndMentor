@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/*Extra small to large phones*/
+@media screen and (min-width: 375px) {
+    main{
+        background-image: url(../assets/home/background-home-mobile.jpg);
+        height: 932px;
+    }
+    
+}
+
