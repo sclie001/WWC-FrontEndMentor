@@ -15,6 +15,6 @@
 .DS_Store
 .prettierignore
 
-#avoid README-instructions
+#avoid unwanted README
 README-instructions.md
 README-template.md:Zone.Identifier
