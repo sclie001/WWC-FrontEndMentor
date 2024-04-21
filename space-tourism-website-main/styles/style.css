@@ -27,3 +27,11 @@ main{
         height: 1368px;
     }
 }
+
+/*laptop and desktops*/
+@media screen and (min-width: 992px){
+    main{
+        background-image: url("../assets/home/background-home-desktop.jpg");
+        height: 900px;
+    }
+}
