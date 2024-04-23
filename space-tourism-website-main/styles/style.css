@@ -41,3 +41,7 @@ main{
     align-items: center;
     justify-content: space-between;
 }
+
+#hamburger-menu{
+    color: #D0D6F9;
+}
