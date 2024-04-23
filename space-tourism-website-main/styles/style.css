@@ -35,3 +35,9 @@ main{
         height: 900px;
     }
 }
+
+.nav-mobile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
