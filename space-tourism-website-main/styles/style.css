@@ -48,8 +48,15 @@ main{
     padding: 8px;
 }
 
-#hamburger-menu{
+#hamburger-menu, #close-icon{
     color: #D0D6F9;
+}
+
+.container-links{
+    width: 70%;
+    height: 100lvh;
+    background-color: transparent;
+    border: 1px solid white;
 }
 
 .links-list{
