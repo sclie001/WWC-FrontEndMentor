@@ -36,10 +36,16 @@ main{
     }
 }
 
+/*navigation bar*/
 .nav-mobile{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.container-hamburger-close-icon{
+    margin: 8px;
+    padding: 8px;
 }
 
 #hamburger-menu{
