@@ -51,3 +51,8 @@ main{
 #hamburger-menu{
     color: #D0D6F9;
 }
+
+.links-list{
+    color: white;
+    list-style-type: none;
+}
