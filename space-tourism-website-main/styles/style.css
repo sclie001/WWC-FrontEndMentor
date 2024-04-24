@@ -82,6 +82,7 @@ main{
     font-size: 16px;
     font-family: "Barlow Condensed", sans-serif;
     word-spacing: 10px;
+    letter-spacing: 2px;
 }
 
 .space-2{
