@@ -109,6 +109,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 0 48px;
 }
 
 .uppercase{
