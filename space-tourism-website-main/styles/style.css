@@ -84,7 +84,6 @@ main{
     flex-direction: column;
     justify-content: space-between;
     height: 30%;
-    color: white;
     list-style-type: none;
     padding: 0 0 0 20px;
     text-transform: uppercase;
@@ -100,4 +99,9 @@ main{
 
 .bold{
     font-weight:600;
+}
+
+.nav-link-format{
+    text-decoration: none;
+    color: white;
 }
