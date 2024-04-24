@@ -81,4 +81,9 @@ main{
     text-transform: uppercase;
     font-size: 16px;
     font-family: "Barlow Condensed", sans-serif;
+    word-spacing: 10px;
+}
+
+.space-2{
+    word-spacing: 12px;
 }
