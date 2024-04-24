@@ -73,4 +73,5 @@ main{
 .links-list{
     color: white;
     list-style-type: none;
+    padding: 0 0 0 20px;
 }
