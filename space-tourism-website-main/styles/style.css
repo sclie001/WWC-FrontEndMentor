@@ -104,6 +104,13 @@ main{
 }
 /*---end of navigation bar--*/
 
+
+.home-catch-phrase{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .uppercase{
     text-transform: uppercase;
 }
