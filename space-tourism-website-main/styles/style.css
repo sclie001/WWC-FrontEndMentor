@@ -67,6 +67,7 @@ main{
     height: 100lvh;
     background-color: transparent;
     border: 1px solid white;
+    padding-top: 72px;
 }
 
 .links-list{
