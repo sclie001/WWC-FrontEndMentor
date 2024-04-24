@@ -75,6 +75,10 @@ main{
 }
 
 .links-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30%;
     color: white;
     list-style-type: none;
     padding: 0 0 0 20px;
