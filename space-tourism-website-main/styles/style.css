@@ -68,7 +68,6 @@ main{
     width: 70%;
     height: 100lvh;
     background-color: transparent;
-    border: 1px solid white;
     padding-top: 72px;
     background-color: rgba(97, 97, 97, 0.2);
     backdrop-filter: blur(10px);
