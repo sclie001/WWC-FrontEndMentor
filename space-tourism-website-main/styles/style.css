@@ -104,6 +104,12 @@ main{
 }
 /*---end of navigation bar--*/
 
+.mobile-home-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .home-catch-phrase{
     display: flex;
     flex-direction: column;
