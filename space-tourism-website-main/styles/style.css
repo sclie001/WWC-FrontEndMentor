@@ -136,9 +136,10 @@ main{
     font-family: "Bellefair", serif;
     margin: 8px;
 }
+
 .description{
     color: #D0D6F9;
     font-size: 15px;
     line-height: 25px;
-    
+    text-align: center;
 }
