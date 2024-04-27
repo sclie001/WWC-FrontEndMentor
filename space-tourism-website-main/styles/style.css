@@ -104,7 +104,6 @@ main{
 }
 /*---end of navigation bar--*/
 
-
 .home-catch-phrase{
     display: flex;
     flex-direction: column;
@@ -121,6 +120,7 @@ main{
     font-family: "Barlow Condensed", sans-serif;
     font-size: 16px;
     margin: 8px 16px;
+    letter-spacing: 2.7px;
 }
 
 .big-word{
