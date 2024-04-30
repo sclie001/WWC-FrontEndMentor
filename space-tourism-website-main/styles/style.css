@@ -138,6 +138,10 @@ main{
     margin: 8px;
 }
 
+.container-description{
+    padding: 0 48px 0 56px;
+}
+
 .description{
     color: #D0D6F9;
     font-size: 15px;
