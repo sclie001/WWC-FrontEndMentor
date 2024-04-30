@@ -157,6 +157,8 @@ main{
     height: 150px;
     border-radius: 50%;
     background-color: white;
+    letter-spacing: 1.5px;
+    font-size: 20px;
 }
 
 .circle-explore, .big-word{
