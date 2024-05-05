@@ -55,12 +55,12 @@ main{
 
 .logo{
     margin: 8px;
-    padding: 16px;
+    padding: 16px 16px 0 16px;
 }
 
 .container-hamburger-close-icon{
     margin: 8px;
-    padding: 24px 16px;
+    padding: 24px 16px 0 24px;
     position: absolute;
     top: 0;
     right: 0;
