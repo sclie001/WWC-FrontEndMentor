@@ -20,6 +20,11 @@ main{
     main{
         background-image: url("../assets/home/background-home-mobile.jpg");
     }
+
+    .logo{
+        width: 40px;
+        height: 40px;
+    }
     
 }
 
