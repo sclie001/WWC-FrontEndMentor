@@ -12,13 +12,13 @@ main{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100lvh;
 }
 
 /*Extra small to large phones*/
 @media screen and (min-width: 280px) {
     main{
         background-image: url("../assets/home/background-home-mobile.jpg");
-        height: 932px;
     }
     
 }
@@ -27,7 +27,6 @@ main{
 @media screen and (min-width: 768px){
     main{
         background-image: url("../assets/home/background-home-tablet.jpg");
-        height: 1368px;
     }
 }
 
@@ -35,7 +34,6 @@ main{
 @media screen and (min-width: 992px){
     main{
         background-image: url("../assets/home/background-home-desktop.jpg");
-        height: 900px;
     }
 }
 
@@ -107,9 +105,9 @@ main{
 .mobile-home-container{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    height: 63%;
+    height: 94%;
 }
 
 .container-catch-phrase-desc{
