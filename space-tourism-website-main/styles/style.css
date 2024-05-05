@@ -107,7 +107,14 @@ main{
 .mobile-home-container{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: space-around;
+    align-items: center;
+    height: 63%;
+}
+
+.container-catch-phrase-desc{
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
