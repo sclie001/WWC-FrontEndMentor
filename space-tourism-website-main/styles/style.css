@@ -163,12 +163,25 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative; /*containing block*/
+    z-index: 1;
     width: 150px;
     height: 150px;
     border-radius: 50%;
     background-color: white;
     letter-spacing: 1.5px;
     font-size: 20px;
+}
+
+.circle-explore::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;/*need to add z-index 1 to orig so it does not get lost behind background image*/
+    background-color: rbga(255, 255, 255, .15);
+    border-radius: inherit;
+
 }
 
 .circle-explore, .big-word{
