@@ -63,13 +63,13 @@ body{
 .container-links{
     width: 70%;
     height: 100lvh;
-    background-color: transparent;
+    /* background-color: transparent; */
     padding-top: 72px;
     background-color: rgba(97, 97, 97, 0.2);
     backdrop-filter: blur(10px);
     display: none;
     position: absolute;
-    top: 0px;
+    top: 0;
     right: 0;
 
 }
