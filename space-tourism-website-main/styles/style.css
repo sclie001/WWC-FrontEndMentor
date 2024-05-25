@@ -59,6 +59,10 @@ body{
     height: 40px;
 }
 
+.mobile-nav-toggle{
+    display:none;
+}
+
 .container-hamburger-close-icon{
     margin: 8px;
     padding: 24px 16px 0 24px;
