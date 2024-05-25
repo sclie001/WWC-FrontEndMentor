@@ -91,6 +91,14 @@ body{
     list-style-type: none;
     padding: 0;
     margin: 0;
+    background-color: rgba(97, 97, 97, 0.2);
+    backdrop-filter: blur(5px);
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: "Barlow Condensed", sans-serif;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    /*browser support*/
 }
 
 @media (max-width: 35rem){
@@ -102,13 +110,6 @@ body{
         list-style-type: none;
         padding: min(20rem, 15vh) 2rem;
         margin: 0;
-        background-color: rgba(97, 97, 97, 0.2);
-        backdrop-filter: blur(5px);
-        text-transform: uppercase;
-        font-size: 16px;
-        font-family: "Barlow Condensed", sans-serif;
-        word-spacing: 10px;
-        letter-spacing: 2px;
     }
 
 }
