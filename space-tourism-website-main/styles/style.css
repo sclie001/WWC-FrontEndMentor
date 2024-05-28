@@ -87,6 +87,11 @@ body{
     margin-right: 12px;
 }
 
+/*used for links of home page and tabs of destination page, hence select all children '*' */
+.underline-indicators > * {
+    border-bottom: .2rem solid hsl(var(--clr-white));
+}
+
 .home{
     background-image: url("../assets/home/background-home-mobile.jpg");
 }
