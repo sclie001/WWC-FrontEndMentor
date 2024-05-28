@@ -101,7 +101,7 @@ body{
     /*browser support*/
 }
 
-@media (max-width: 35rem){
+@media (max-width: 35em){ /*treat Safari similar to other browsers using em instead of rem*/
     .links-list{
         flex-direction: column;
         position: fixed;
