@@ -44,6 +44,11 @@ body{
     border: 0;
 }
 
+/*typography*/
+.letter-spacing-2{
+    letter-spacing: 2.7px;
+}
+
 .uppercase{
     text-transform: uppercase;
 }
