@@ -78,6 +78,10 @@ body{
     margin: 0;
 }
 
+.primary-navigation a {
+    text-decoration: none;
+}
+
 
 .home{
     background-image: url("../assets/home/background-home-mobile.jpg");
