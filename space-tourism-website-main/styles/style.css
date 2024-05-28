@@ -35,6 +35,16 @@ body{
     border: 0;
 }
 
+.uppercase{
+    text-transform: uppercase;
+}
+
+/*colors*/
+.txt-white{
+    color: hsl(var(--clr-white));
+}
+
+
 .home{
     background-image: url("../assets/home/background-home-mobile.jpg");
 }
@@ -147,10 +157,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-
-.uppercase{
-    text-transform: uppercase;
 }
 
 .title{
