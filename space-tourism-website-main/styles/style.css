@@ -163,10 +163,6 @@ body{
     word-spacing: 12px;
 }
 
-.bold{
-    font-weight:600;
-}
-
 .nav-link-format{
     text-decoration: none;
     color: white;
