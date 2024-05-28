@@ -99,6 +99,10 @@ body{
     border-color: hsl(var(--clr-white) / .5);
 }
 
+.underline-indicators > .active{
+    border-color: hsl(var(--clr-white) / 1);
+}
+
 .home{
     background-image: url("../assets/home/background-home-mobile.jpg");
 }
