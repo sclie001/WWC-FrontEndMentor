@@ -45,6 +45,11 @@ body{
 }
 
 /*typography*/
+
+.ff-sans-cond{
+    font-family: var(--ff-sans-cond);
+}
+
 .letter-spacing-2{
     letter-spacing: 2.7px;
 }
