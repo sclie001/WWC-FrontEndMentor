@@ -20,6 +20,10 @@ body{
 :root{
     /*colors*/
     --clr-white: 0 0% 100%;
+
+    /*font-families*/
+    --ff-sans-cond: "Barlow Condensed", sans-serif;
+
 }
 
 /* ---------------- */
