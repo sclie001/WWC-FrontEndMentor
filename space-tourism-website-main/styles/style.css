@@ -73,6 +73,7 @@ body{
 
 .primary-navigation{
     --gap: 8rem;
+    list-style: none;
 }
 
 
