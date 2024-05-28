@@ -82,6 +82,9 @@ body{
     text-decoration: none;
 }
 
+.primary-navigation a > span{
+    font-weight: 700;
+}
 
 .home{
     background-image: url("../assets/home/background-home-mobile.jpg");
