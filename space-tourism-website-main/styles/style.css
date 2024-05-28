@@ -67,6 +67,14 @@ body{
     color: hsl(var(--clr-white));
 }
 
+/* ---------------- */
+/* Components       */
+/* ---------------- */
+
+.primary-navigation{
+    --gap: 8rem;
+}
+
 
 .home{
     background-image: url("../assets/home/background-home-mobile.jpg");
