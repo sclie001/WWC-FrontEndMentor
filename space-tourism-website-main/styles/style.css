@@ -86,6 +86,8 @@ body{
     .primary-navigation{
         flex-direction: column;
         position: fixed;
+        inset: 0 0 0 30%;
+        background-color: black;
     }
 }
 
