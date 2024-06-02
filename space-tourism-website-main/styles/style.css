@@ -89,6 +89,7 @@ body{
         inset: 0 0 0 30%;
         background-color: black;
         z-index: 1000;
+        padding: min(20rem, 15vh) 2rem;
     }
 }
 
