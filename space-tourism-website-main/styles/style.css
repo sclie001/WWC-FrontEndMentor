@@ -88,6 +88,7 @@ body{
         position: fixed;
         inset: 0 0 0 30%;
         background-color: black;
+        z-index: 1000;
     }
 }
 
