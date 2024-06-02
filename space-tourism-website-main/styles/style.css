@@ -85,6 +85,7 @@ body{
 @media screen and (max-width: 35rem){
     .primary-navigation{
         flex-direction: column;
+        position: fixed;
     }
 }
 
