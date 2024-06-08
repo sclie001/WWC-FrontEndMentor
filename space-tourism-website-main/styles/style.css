@@ -118,6 +118,7 @@ body{
         z-index: 2000;
         width: 1.5rem;
         aspect-ratio: 1;
+        border: none;
     }
 }
 
