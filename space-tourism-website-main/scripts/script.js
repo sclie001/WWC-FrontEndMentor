@@ -15,7 +15,6 @@ function toggleNavigation(){
     } else{
         navMenu.setAttribute("data-visible", false);
     }
-    console.log(menuVisible);
 }
 
 navToggle.addEventListener('click', toggle);
