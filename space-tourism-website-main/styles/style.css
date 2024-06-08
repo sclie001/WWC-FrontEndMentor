@@ -103,6 +103,7 @@ body{
         z-index: 1000;
         padding: min(20rem, 15vh) 2rem;
         --underline-gap: 0.5rem;
+        transform: translateX(100%);
     }
 
     .primary-navigation.underline-indicators > *{
