@@ -116,6 +116,7 @@ body{
         right: 1rem;
         background: transparent;
         background-image: url("../assets/shared/icon-hamburger.svg");
+        background-repeat: no-repeat;
         z-index: 2000;
         width: 1.5rem;
         aspect-ratio: 1;
