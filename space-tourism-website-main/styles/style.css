@@ -175,7 +175,7 @@ body{
     height: 40px;
 }
 
-.container-hamburger-close-icon{
+/* .container-hamburger-close-icon{
     margin: 8px;
     padding: 24px 16px 0 24px;
     position: absolute;
@@ -201,10 +201,10 @@ body{
     font-family: "Barlow Condensed", sans-serif;
     word-spacing: 10px;
     letter-spacing: 2px;
-    /*browser support*/
-}
+    /*browser support*//*
+}*/
 
-@media (max-width: 35em){ /*treat Safari similar to other browsers using em instead of rem*/
+/*@media (max-width: 35em){ /*treat Safari similar to other browsers using em instead of rem*//*
     .links-list{
         flex-direction: column;
         position: fixed;
@@ -215,7 +215,7 @@ body{
         margin: 0;
     }
 
-}
+} */
 /*---end of navigation bar--*/
 
 .mobile-home-container{
