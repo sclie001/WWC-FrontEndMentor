@@ -83,6 +83,10 @@ body{
     background-color: hsl(var(--clr-dark) / 0.91);
 }
 
+.mobile-nav-toggle{
+    display:none;
+}
+
 @supports (backdrop-filter: blur(1rem)){ /*put any value, can put 0*/
     .primary-navigation{
         background-color: hsl(var(--clr-white) / 0.05);
@@ -91,7 +95,7 @@ body{
 }
 
 /*Medium devices (tablets up to 560px)*/
-@media screen and (max-width: 35rem){
+@media screen and (max-width: 35em){/*treat Safari similar to other browsers using em instead of rem*/
     .primary-navigation{
         flex-direction: column;
         position: fixed;
@@ -135,7 +139,7 @@ body{
 }
 
 /*Medium devices (landscape tablets, 768px and up*/
-@media screen and (min-width: 35rem){
+@media screen and (min-width: 35em){
     .home{
         background-position: center center;
         background-image: url("../assets/home/background-home-tablet.jpg");
@@ -143,7 +147,7 @@ body{
 }
 
 /*laptop and desktops*/
-@media screen and (min-width: 45rem){
+@media screen and (min-width: 45em){
     .home{
         background-image: url("../assets/home/background-home-desktop.jpg");
     }
@@ -155,10 +159,6 @@ body{
     padding: 16px 16px 0 16px;
     width: 40px;
     height: 40px;
-}
-
-.mobile-nav-toggle{
-    display:none;
 }
 
 .container-hamburger-close-icon{
