@@ -114,6 +114,7 @@ body{
         position: absolute;
         top: 2rem;
         right: 1rem;
+        background: transparent;
         background-image: url("../assets/shared/icon-hamburger.svg");
         z-index: 2000;
         width: 1.5rem;
