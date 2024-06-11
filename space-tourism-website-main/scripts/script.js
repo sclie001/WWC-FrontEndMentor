@@ -12,8 +12,10 @@ function toggleNavigation(){
     
     if(menuVisible === "false"){
         navMenu.setAttribute("data-visible", true);
+        navToggle.setAttribute("aria-expanded", true);
     } else{
         navMenu.setAttribute("data-visible", false);
+        navToggle.setAttribute("aria-expanded", false);
     }
 }
 

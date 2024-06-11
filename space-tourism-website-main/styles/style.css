@@ -128,6 +128,10 @@ body{
         aspect-ratio: 1;
         border: none;
     }
+
+    .mobile-nav-toggle[aria-expanded = "true"]{
+        background-image: url("../assets/shared/icon-close.svg");
+    }
 }
 
 .primary-navigation a {
