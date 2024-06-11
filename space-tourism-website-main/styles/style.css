@@ -104,6 +104,7 @@ body{
         padding: min(20rem, 15vh) 2rem;
         --underline-gap: 0.5rem;
         transform: translateX(100%);
+        transition: transform 500ms ease-in-out;
     }
 
     .primary-navigation.underline-indicators > *{
@@ -112,7 +113,6 @@ body{
 
     .primary-navigation[data-visible = "true"]{
         transform: translateX(0);
-        transition: transform 500ms ease-in-out;
     }
 
     .mobile-nav-toggle{
