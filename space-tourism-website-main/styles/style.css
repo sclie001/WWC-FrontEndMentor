@@ -72,6 +72,11 @@ body{
 /* Components       */
 /* ---------------- */
 
+/*primary header*/
+.primary-header{
+    justify-content: space-between;
+}
+
 /*default styling first, then media query.
   Media query takes styling here unless you specify another value*/
 .primary-navigation{
