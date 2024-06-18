@@ -94,7 +94,7 @@ body{
     }
 }
 
-/*Medium devices (tablets up to 560px)*/
+/*phone devices (up to 560px)*/
 @media screen and (max-width: 35em){/*treat Safari similar to other browsers using em instead of rem*/
     .primary-navigation{
         flex-direction: column;
