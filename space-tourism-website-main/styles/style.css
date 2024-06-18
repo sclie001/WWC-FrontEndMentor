@@ -75,6 +75,7 @@ body{
 /*primary header*/
 .primary-header{
     justify-content: space-between;
+    align-items: center;
 }
 
 /*default styling first, then media query.
