@@ -73,9 +73,14 @@ body{
 /* ---------------- */
 
 /*primary header*/
+
 .primary-header{
     justify-content: space-between;
     align-items: center;
+}
+
+.logo{
+    margin: 1.5rem clamp(1.5rem, 7vw, 3rem);
 }
 
 /*default styling first, then media query.
@@ -184,12 +189,7 @@ body{
 }
 
 /*navigation bar*/
-.logo{
-    margin: 8px;
-    padding: 16px 16px 0 16px;
-    width: 40px;
-    height: 40px;
-}
+
 
 /* .container-hamburger-close-icon{
     margin: 8px;
