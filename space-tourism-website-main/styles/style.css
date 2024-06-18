@@ -83,6 +83,15 @@ body{
     background-color: hsl(var(--clr-dark) / 0.91);
 }
 
+.primary-navigation a {
+    text-decoration: none;
+}
+
+.primary-navigation a > span{
+    font-weight: 700;
+    margin-right: 12px;
+}
+
 .mobile-nav-toggle{
     display:none;
 }
@@ -132,15 +141,6 @@ body{
     .mobile-nav-toggle[aria-expanded = "true"]{
         background-image: url("../assets/shared/icon-close.svg");
     }
-}
-
-.primary-navigation a {
-    text-decoration: none;
-}
-
-.primary-navigation a > span{
-    font-weight: 700;
-    margin-right: 12px;
 }
 
 /*used for links of home page and tabs of destination page, hence select all children '*' */
