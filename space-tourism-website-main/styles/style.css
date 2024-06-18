@@ -75,7 +75,7 @@ body{
 /*default styling first, then media query.
   Media query takes styling here unless you specify another value*/
 .primary-navigation{
-    /* --gap: 8rem; */
+    --gap: clamp(1.5rem, 5vw, 3.5rem);
     --underline-gap: 2rem;
     list-style: none;
     padding: 0;
