@@ -148,6 +148,10 @@ body{
     .primary-navigation{
         padding-inline: 3rem;
     }
+
+    .primary-navigation a > span{
+        display: none;
+    }
 }
 
 /*used for links of home page and tabs of destination page, hence select all children '*' */
