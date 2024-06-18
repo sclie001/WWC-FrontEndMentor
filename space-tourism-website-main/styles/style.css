@@ -143,6 +143,13 @@ body{
     }
 }
 
+/*tablet screens*/
+@media screen and (min-width: 35em) and (max-width: 45em){
+    .primary-navigation{
+        padding-inline: 3rem;
+    }
+}
+
 /*used for links of home page and tabs of destination page, hence select all children '*' */
 .underline-indicators > * {
     padding: var(--underline-gap, 1rem) 0; /*set default value for created var on top/bottom padding*/
