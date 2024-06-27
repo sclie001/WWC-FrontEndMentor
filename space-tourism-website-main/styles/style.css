@@ -154,15 +154,26 @@ body{
     }
 }
 
+/*tablet screens; smooth transition of padding from tablet all the way to desktop*/
+@media screen and (min-width: 35em){
+    .primary-navigation{
+        padding-inline: clamp(3rem, 7vw, 7rem);
+    }
+}
+
 /*tablet screens*/
 @media screen and (min-width: 35em) and (max-width: 45em){
-    .primary-navigation{
-        padding-inline: 3rem;
-    }
-
     .primary-navigation a > span{
         display: none;
     }
+}
+
+/*laptops and desktops*/
+@media screen and (min-width: 45em){
+    .primary-navigation{
+        margin-block: 2rem;
+    }
+    
 }
 
 /*used for links of home page and tabs of destination page, hence select all children '*' */
