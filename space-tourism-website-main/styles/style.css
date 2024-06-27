@@ -154,6 +154,14 @@ body{
     }
 }
 
+/*laptops and desktops*/
+@media screen and (min-width: 45em){
+    .primary-navigation{
+        margin-block: 2rem;
+    }
+    
+}
+
 /*used for links of home page and tabs of destination page, hence select all children '*' */
 .underline-indicators > * {
     padding: var(--underline-gap, 1rem) 0; /*set default value for created var on top/bottom padding*/
