@@ -146,7 +146,7 @@ body{
 /*tablet screens; smooth transition of padding*/
 @media screen and (min-width: 35em){
     .primary-navigation{
-        padding-inline: clamp(3rem, 5vw, 7rem);
+        padding-inline: clamp(3rem, 7vw, 7rem);
     }
 }
 
