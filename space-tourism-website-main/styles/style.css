@@ -162,7 +162,7 @@ body{
 }
 
 /*tablet screens*/
-@media screen and (min-width: 35em) and (max-width: 45em){
+@media screen and (min-width: 35em) and (max-width: 44.999em){
     .primary-navigation a > span{
         display: none;
     }
