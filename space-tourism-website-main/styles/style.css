@@ -170,6 +170,20 @@ body{
 
 /*laptops and desktops*/
 @media screen and (min-width: 45em){
+
+    .primary-header::after{
+        content: '';
+        width: 100%;
+        height: 1px;
+        margin-right: -2.5rem;/*allows line to run into nav*/
+        background: hsl(var(--clr-white) / .25);
+        order: 1; /*only recommended for decorative elements*/
+    }
+
+    nav{
+        order: 2;
+    }
+
     .primary-navigation{
         margin-block: 2rem;
     }
