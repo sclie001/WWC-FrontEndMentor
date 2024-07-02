@@ -182,7 +182,7 @@ body{
     }
 
     nav{
-        order: 2;
+        order: 2;/*reference to decorative line in primary-header*/
     }
 
     .primary-navigation{
