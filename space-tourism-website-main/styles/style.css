@@ -178,6 +178,7 @@ body{
         margin-right: -2.5rem;/*allows line to run into nav*/
         background: hsl(var(--clr-white) / .25);
         order: 1; /*only recommended for decorative elements*/
+        z-index: 1;
     }
 
     nav{
