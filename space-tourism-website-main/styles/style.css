@@ -170,7 +170,7 @@ body{
 
 /*laptops and desktops*/
 @media screen and (min-width: 45em){
-
+    /*decorative line that runs after logo and through begining of nav*/
     .primary-header::after{
         content: '';
         width: 100%;
