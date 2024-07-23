@@ -88,9 +88,9 @@ body{
 .fs-200 { font-size: var(--fs-200); }
 
 /*colors*/
-.txt-white{
-    color: hsl(var(--clr-white));
-}
+.txt-white { color: hsl(var(--clr-white)); }
+.text-accent { color: hsl(var(--clr-light)); }
+.text-dark { color: hsl(var(--clr-dark)); }
 
 /* ---------------- */
 /* Components       */
