@@ -72,6 +72,14 @@ body{
     font-family: var(--ff-sans-cond);
 }
 
+.ff-serif{
+    font-family: var(--ff-serif);
+}
+
+.ff-sans-normal{
+    font-family: var(--ff-sans-normal);
+}
+
 .letter-spacing-2{
     letter-spacing: 2.7px;
 }
