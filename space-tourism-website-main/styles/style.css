@@ -4,15 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
 
-body{
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    background-position: bottom center;
-    background-size: cover;
-    /* background-repeat: no-repeat; */
-}
-
 /* ---------------- */
 /* Custom properties */
 /* ---------------- */
@@ -69,6 +60,16 @@ h4,
 h5,
 p{
     font-weight: 400;
+}
+
+body{
+    font-family: var(--ff-sans-normal);
+    color: hsl(var(--clr-white));
+    line-height: 1.5;
+    min-height: 100vh;
+    background-position: bottom center;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
 }
 
 /* ---------------- */
