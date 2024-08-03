@@ -372,14 +372,6 @@ body{
     padding: 0 32px 0 24px;
 }
 
-.description{
-    color: #D0D6F9;
-    font-size: 15px;
-    line-height: 25px;
-    text-align: center;
-    font-family: "Barlow", sans-serif;
-}
-
 .circle-explore{
     display: inline-flex;/*can use flex or grid*/
     justify-content: center;
