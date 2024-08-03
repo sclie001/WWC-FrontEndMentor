@@ -87,6 +87,26 @@ body{
     max-width: 80rem;
 }
 
+.grid-container{
+    display: grid;
+    column-gap: var(--container-gap, 2em);
+
+    /*four columns, 1st and last are space. 2 children.
+      1fr max space which pushes content in the middle*/
+    grid-template-columns: minmax(2em, 1fr) repeat(2, minmax(0, 40rem)) minmax(2em, 1fr);
+    /* outline: 1px solid blue; */
+}
+
+.grid-container > *:first-child{
+    grid-column: 2;
+    /* outline: 1px solid red; */
+}
+
+.grid-container > *:last-child{
+    grid-column: 3;
+    /* outline: 1px solid yellow; */
+}
+
 .sr-only{
     /*screen readers*/
     position: absolute; 
