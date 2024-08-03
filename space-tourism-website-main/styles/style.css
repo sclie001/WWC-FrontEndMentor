@@ -120,7 +120,7 @@ p{
 
 .text-dark { color: hsl(var(--clr-dark)); }
 .text-accent { color: hsl(var(--clr-light)); }
-.txt-white { color: hsl(var(--clr-white)); }
+.text-white { color: hsl(var(--clr-white)); }
 
 
 /* ---------------- */
@@ -325,41 +325,6 @@ p{
 
 } */
 /*---end of navigation bar--*/
-
-.mobile-home-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 94%;
-    padding: 0 16px;
-}
-
-.container-catch-phrase-desc{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.home-catch-phrase{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.title{
-    color: #D0D6F9;
-    font-family: "Barlow Condensed", sans-serif;
-    font-size: 16px;
-    margin: 8px 16px;
-    letter-spacing: 2.7px;
-}
-
-.big-word{
-    color: white;
-    font-size: 80px;
-    margin: 8px;
-}
 
 .container-description{
     padding: 0 32px 0 24px;
