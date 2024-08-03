@@ -48,6 +48,7 @@ body{
 /* Reset            */
 /* ---------------- */
 
+/*reset margins*/
 body,
 h1,
 h2,
@@ -59,6 +60,7 @@ figure,
 picture{
     margin: 0;
 }
+
 
 h1,
 h2,
