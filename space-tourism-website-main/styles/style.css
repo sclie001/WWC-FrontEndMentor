@@ -70,6 +70,11 @@ body{
     background-position: bottom center;
     background-size: cover;
     /* background-repeat: no-repeat; */
+
+    display: grid; /*tries to divide space 
+    evenly on top of page and bottom, but it is a lot of space*/
+
+    grid-template-rows: min-content 1fr;/*uses extra space top/bottom*/
 }
 
 /* ---------------- */
@@ -89,22 +94,30 @@ body{
 
 .grid-container{
     display: grid;
-    column-gap: var(--container-gap, 2em);
-
-    /*four columns, 1st and last are space. 2 children.
-      1fr max space which pushes content in the middle*/
-    grid-template-columns: minmax(2em, 1fr) repeat(2, minmax(0, 40rem)) minmax(2em, 1fr);
-    /* outline: 1px solid blue; */
+    /* border: 3px solid blue; */
 }
 
-.grid-container > *:first-child{
-    grid-column: 2;
-    /* outline: 1px solid red; */
-}
+/*desktop size*/
+@media (min-width: 45rem){
+    .grid-container{
+        column-gap: var(--container-gap, 2em);
 
-.grid-container > *:last-child{
-    grid-column: 3;
-    /* outline: 1px solid yellow; */
+        /*four columns, 1st and last are space. 2 children.
+        1fr max space which pushes content in the middle*/
+        grid-template-columns: minmax(2em, 1fr) repeat(2, minmax(0, 40rem)) minmax(2em, 1fr);
+        /*not taking up the height of page (leaving a lot of space below grid), so have to 
+        make body be grid*/
+    }
+
+    .grid-container > *:first-child{
+        grid-column: 2;
+        /* outline: 1px solid red; */
+    }
+    
+    .grid-container > *:last-child{
+        grid-column: 3;
+        /* outline: 1px solid yellow; */
+    }
 }
 
 .sr-only{
