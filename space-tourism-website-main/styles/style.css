@@ -18,21 +18,45 @@
 
     /*most browsers have default size of 16px.
       rem = font-size (px) given from Figma design for element / 16*/  
-    --fs-900: 9.375rem; /*150px / 16px*/
-    --fs-800: 6.25rem;
-    --fs-700: 3.5rem;
-    --fs-600: 2rem;
-    --fs-500: 1.75rem;
-    --fs-400: 1.125rem;/*base size, usually for text in body*/
-    --fs-300: 1rem;
-    --fs-200: 0.875rem;
+    --fs-900: clamp(5rem, 9vw + 1rem, 9.375rem); /*80px*/
+    --fs-800: 3.5rem; /*56px*/
+    --fs-700: 1.5rem; /*24px*/
+    --fs-600: 1.25; /*20px*/
+    --fs-500: 1rem; /*16px*/ 
+    --fs-400: 0.9375rem; /*15px*/
+    --fs-300: 0.875rem;/*14px*/
+    --fs-200: 0.875rem; /*14px*/
 
-
+    
     /*font-families*/
     --ff-sans-cond: "Barlow Condensed", sans-serif;
     --ff-serif: "Bellefair", serif;
     --ff-sans-normal: "Barlow", sans-serif;
 
+}
+
+/*tablet*/
+@media (min-width: 35em){
+    :root{
+    --fs-800: 5rem; /*80px*/
+    --fs-700: 2.5rem; /*40px*/
+    --fs-600: 2rem; /*32px*/
+    --fs-500: 1.25rem; /*20px*/ 
+    --fs-400: 1rem; /*16px*/
+    --fs-300: 1rem; /*16px*/
+    }
+}
+
+/*desktop*/
+@media (min-width: 45em){
+    :root{
+        /*font sizes*/
+        --fs-800: 6.25rem; /*100px*/
+        --fs-700: 3.5rem; /*56px*/
+        --fs-500: 1.75rem; /*28px*/
+        --fs-400: 1.125rem;/*base size, usually for text in body*/
+        
+    }
 }
 
 /* ---------------- */
@@ -98,7 +122,7 @@ body{
 }
 
 /*desktop size*/
-@media (min-width: 45rem){
+@media (min-width: 45em){
     .grid-container{
         column-gap: var(--container-gap, 2em);
 
