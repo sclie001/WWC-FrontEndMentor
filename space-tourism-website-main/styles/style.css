@@ -405,7 +405,7 @@ body{
     justify-content: center;
     align-items: center;
     position: relative; /*containing block*/
-    padding: 2em;
+    padding: 1em;
     z-index: 1;
     aspect-ratio: 1;
     border-radius: 50%;
@@ -429,8 +429,4 @@ body{
 .circle-explore:focus::after{
     opacity: 1;
     transform: scale(1.5);
-}
-
-.circle-explore, .big-word{
-    font-family: "Bellefair", serif;
 }
