@@ -21,7 +21,7 @@
     --fs-900: clamp(5rem, 9vw + 1rem, 9.375rem); /*80px*/
     --fs-800: 3.5rem; /*56px*/
     --fs-700: 1.5rem; /*24px*/
-    --fs-600: 1.25; /*20px*/
+    --fs-600: clamp(1.25rem, 2vw + 1rem, 2rem); /*20px(smallest) 32px (biggest for tablet and desktop)*/
     --fs-500: 1rem; /*16px*/ 
     --fs-400: 0.9375rem; /*15px*/
     --fs-300: 0.875rem;/*14px*/
