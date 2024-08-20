@@ -403,6 +403,7 @@ body{
 }
 
 .circle-explore{
+    font-size: 2rem;
     display: inline-flex;/*can use flex or grid*/
     justify-content: center;
     align-items: center;
