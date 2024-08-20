@@ -129,6 +129,7 @@ body{
 /*desktop size*/
 @media (min-width: 45em){
     .grid-container{
+        text-align: left;
         column-gap: var(--container-gap, 2em);
 
         /*four columns, 1st and last are space. 2 children.
