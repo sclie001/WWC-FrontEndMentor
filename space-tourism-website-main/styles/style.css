@@ -124,6 +124,7 @@ body{
     display: grid;
     text-align: center;
     place-items: center; /*short for justify and align items*/
+    padding-inline: 1rem;
     /* border: 3px solid blue; */
 }
 
@@ -154,6 +155,14 @@ body{
         /* outline: 1px solid yellow; */
     }
 }
+
+/* .grid-container > *:first-child{
+    outline: 1px solid red;
+}
+
+.grid-container > *:last-child{
+    outline: 1px solid yellow;
+} */
 
 .sr-only{
     /*screen readers*/
