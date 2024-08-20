@@ -123,6 +123,7 @@ body{
 .grid-container{
     display: grid;
     text-align: center;
+    place-items: center; /*short for justify and align items*/
     /* border: 3px solid blue; */
 }
 
