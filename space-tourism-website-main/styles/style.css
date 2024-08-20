@@ -127,6 +127,10 @@ body{
     /* border: 3px solid blue; */
 }
 
+.grid-container * {
+    max-width: 50ch; /*maximum of 50 char a line*/
+}
+
 /*desktop size*/
 @media (min-width: 45em){
     .grid-container{
