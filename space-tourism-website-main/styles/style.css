@@ -216,6 +216,10 @@ body{
     letter-spacing: 4.72px;    
 }
 
+.numbered-title span{
+    margin-right: .5em;
+}
+
 
 /* ---------------- */
 /* Components       */
