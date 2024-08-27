@@ -219,6 +219,7 @@ body{
 .numbered-title span{
     margin-right: .5em;
     color: hsl(var(--clr-white) / .25);
+    font-weight: 700;
 }
 
 
