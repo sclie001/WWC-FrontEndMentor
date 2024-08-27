@@ -209,6 +209,10 @@ body{
 .text-accent { color: hsl(var(--clr-light)); }
 .text-white { color: hsl(var(--clr-white)); }
 
+.numbered-title{
+    font-family: var(--ff-sans-cond);
+}
+
 
 /* ---------------- */
 /* Components       */
