@@ -211,6 +211,7 @@ body{
 
 .numbered-title{
     font-family: var(--ff-sans-cond);
+    font-size: var(--fs-500);    
 }
 
 
