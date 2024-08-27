@@ -398,6 +398,10 @@ body{
     padding: 0 32px 0 24px;
 } */
 
+/*----------------------------- */
+/* explore button on home pagen */
+/*------------------------------*/
+
 .circle-explore{
     font-size: 2rem;
     display: inline-flex;/*can use flex or grid*/
