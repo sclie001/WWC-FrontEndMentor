@@ -18,7 +18,7 @@
 
     /*most browsers have default size of 16px.
       rem = font-size (px) given from Figma design for element / 16*/  
-    --fs-900: clamp(5rem, 9vw + 1rem, 9.375rem); /*80px*/
+    --fs-900: clamp(5rem, 9vw + 1rem, 9.375rem); /*80px to 150px with growth factor 9vw + 1rem*/
     --fs-800: 3.5rem; /*56px*/
     --fs-700: 1.5rem; /*24px*/
     --fs-600: clamp(1.25rem, 2vw + 1rem, 2rem); /*20px(smallest) 32px (biggest for tablet and desktop)*/
