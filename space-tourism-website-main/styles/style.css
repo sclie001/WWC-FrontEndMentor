@@ -362,6 +362,10 @@ body{
     border-color: hsl(var(--clr-white) / 1);
 }
 
+.tab-list{
+    --gap: 1.8rem;
+}
+
 /*navigation bar*/
 
 
