@@ -468,11 +468,20 @@ body{
     background-image: url("../assets/home/background-home-mobile.jpg");
 }
 
+.destination{
+    background-image: url("../assets/destination/background-destination-mobile.jpg");
+}
+
 /*Medium devices (landscape tablets, 768px and up*/
 @media screen and (min-width: 35em){
     .home{
         background-position: center center;
         background-image: url("../assets/home/background-home-tablet.jpg");
+    }
+
+    .destination{
+        background-position: center center;
+        background-image: url("../assets/destination/background-destination-tablet.jpg");
     }
 }
 
@@ -480,5 +489,9 @@ body{
 @media screen and (min-width: 45em){
     .home{
         background-image: url("../assets/home/background-home-desktop.jpg");
+    }
+
+    .destination{
+        background-image: url("../assets/destination/background-destination-desktop.jpg");
     }
 }
