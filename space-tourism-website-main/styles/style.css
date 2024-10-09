@@ -463,6 +463,15 @@ body{
     max-width: 50ch; /*maximum of 50 char a line*/
 }
 
+/*destination layout*/
+
+.grid-container--destination{
+    grid-template-areas: 
+    'title'
+    'image'
+    'tabs'
+    'content';
+}
 
 /*desktop size*/
 @media (min-width: 45em){
