@@ -482,6 +482,10 @@ body{
     max-width: 60%;
 }
 
+.grid-container--destination > .tab-list{
+    grid-area: tabs;
+}
+
 /*desktop size*/
 @media (min-width: 45em){
     .grid-container{
