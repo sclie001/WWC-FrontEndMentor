@@ -477,6 +477,10 @@ body{
     grid-area: title;
 }
 
+.grid-container--destination > img{
+    grid-area: 'image';
+}
+
 /*desktop size*/
 @media (min-width: 45em){
     .grid-container{
