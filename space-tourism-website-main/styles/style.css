@@ -486,6 +486,10 @@ body{
     grid-area: tabs;
 }
 
+.grid-container--destination > .destination-info{
+    grid-area: content;
+}
+
 /*desktop size*/
 @media (min-width: 45em){
     .grid-container{
