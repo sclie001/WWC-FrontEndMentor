@@ -116,55 +116,6 @@ body{
     max-width: 80rem;
 }
 
-.grid-container{
-    display: grid;
-    text-align: center;
-    place-items: center; /*short for justify and align items*/
-    padding-inline: 1rem;
-    /* border: 3px solid blue; */
-}
-
-.grid-container * {
-    max-width: 50ch; /*maximum of 50 char a line*/
-}
-
-/*desktop size*/
-@media (min-width: 45em){
-    .grid-container{
-        text-align: left;
-        column-gap: var(--container-gap, 2em);
-
-        /*four columns, 1st and last are space. 2 children.
-        1fr max space which pushes content in the middle*/
-        grid-template-columns: minmax(2em, 1fr) repeat(2, minmax(0, 40rem)) minmax(2em, 1fr);
-        /*not taking up the height of page (leaving a lot of space below grid), so have to 
-        make body be grid*/
-    }
-
-    .grid-container > *:first-child{
-        grid-column: 2;
-        /* outline: 1px solid red; */
-    }
-    
-    .grid-container > *:last-child{
-        grid-column: 3;
-        /* outline: 1px solid yellow; */
-    }
-
-    .grid-container--home{
-        padding-bottom: max(6rem, 20vh);
-        align-items: end;
-    }
-}
-
-/* .grid-container > *:first-child{
-    outline: 1px solid red;
-}
-
-.grid-container > *:last-child{
-    outline: 1px solid yellow;
-} */
-
 .sr-only{
     /*screen readers*/
     position: absolute; 
@@ -495,3 +446,56 @@ body{
         background-image: url("../assets/destination/background-destination-desktop.jpg");
     }
 }
+
+/*------------------------*/
+/* Layout                 */
+/*------------------------*/
+
+.grid-container{
+    display: grid;
+    text-align: center;
+    place-items: center; /*short for justify and align items*/
+    padding-inline: 1rem;
+    /* border: 3px solid blue; */
+}
+
+.grid-container * {
+    max-width: 50ch; /*maximum of 50 char a line*/
+}
+
+/*desktop size*/
+@media (min-width: 45em){
+    .grid-container{
+        text-align: left;
+        column-gap: var(--container-gap, 2em);
+
+        /*four columns, 1st and last are space. 2 children.
+        1fr max space which pushes content in the middle*/
+        grid-template-columns: minmax(2em, 1fr) repeat(2, minmax(0, 40rem)) minmax(2em, 1fr);
+        /*not taking up the height of page (leaving a lot of space below grid), so have to 
+        make body be grid*/
+    }
+
+    .grid-container > *:first-child{
+        grid-column: 2;
+        /* outline: 1px solid red; */
+    }
+    
+    .grid-container > *:last-child{
+        grid-column: 3;
+        /* outline: 1px solid yellow; */
+    }
+
+    .grid-container--home{
+        padding-bottom: max(6rem, 20vh);
+        align-items: end;
+    }
+}
+
+/* .grid-container > *:first-child{
+    outline: 1px solid red;
+}
+
+.grid-container > *:last-child{
+    outline: 1px solid yellow;
+} */
