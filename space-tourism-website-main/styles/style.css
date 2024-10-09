@@ -463,6 +463,10 @@ body{
     max-width: 50ch; /*maximum of 50 char a line*/
 }
 
+.numbered-title{
+    grid-area: title;
+}
+
 /*destination layout*/
 
 .grid-container--destination{
@@ -471,10 +475,6 @@ body{
     'image'
     'tabs'
     'content';
-}
-
-.numbered-title{
-    grid-area: title;
 }
 
 .grid-container--destination > img{
