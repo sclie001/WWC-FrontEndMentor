@@ -478,7 +478,8 @@ body{
 }
 
 .grid-container--destination > img{
-    grid-area: 'image';
+    grid-area: image;
+    max-width: 60%;
 }
 
 /*desktop size*/
