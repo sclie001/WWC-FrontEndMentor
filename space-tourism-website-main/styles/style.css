@@ -473,6 +473,10 @@ body{
     'content';
 }
 
+.numbered-title{
+    grid-area: title;
+}
+
 /*desktop size*/
 @media (min-width: 45em){
     .grid-container{
