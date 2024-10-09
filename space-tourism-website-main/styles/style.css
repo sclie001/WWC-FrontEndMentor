@@ -370,9 +370,7 @@ body{
     padding: 0 32px 0 24px;
 } */
 
-/*----------------------------- */
-/* explore button on home pagen */
-/*------------------------------*/
+/* explore button on home page  */
 
 .circle-explore{
     font-size: 2rem;
@@ -406,14 +404,16 @@ body{
     transform: scale(1.5);
 }
 
-/*------------------------*/
-/* Home background        */
-/*------------------------*/
+/*---------------------------*/
+/* Page specific background  */
+/*---------------------------*/
 
 body{
     background-position: bottom center;
     background-size: cover;
 }
+
+/*home*/
 
 .home{
     background-image: url("../assets/home/background-home-mobile.jpg");
@@ -462,6 +462,7 @@ body{
 .grid-container * {
     max-width: 50ch; /*maximum of 50 char a line*/
 }
+
 
 /*desktop size*/
 @media (min-width: 45em){
