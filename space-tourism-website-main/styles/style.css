@@ -475,6 +475,7 @@ body{
 /*destination layout*/
 
 .grid-container--destination{
+    --flow-space: 2rem;
     grid-template-areas: 
     'title'
     'image'
