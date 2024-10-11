@@ -490,6 +490,10 @@ body{
     grid-area: content;
 }
 
+.destination-meta{
+    flex-direction: column;
+}
+
 /*desktop size*/
 @media (min-width: 45em){
     .grid-container{
