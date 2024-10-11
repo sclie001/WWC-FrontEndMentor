@@ -493,6 +493,7 @@ body{
 .destination-meta{
     flex-direction: column;
     border-top: 1px solid hsl(var(--clr-white) / .1);
+    padding-top: 2.5rem;
 }
 
 /*desktop size*/
