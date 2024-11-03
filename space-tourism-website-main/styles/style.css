@@ -504,6 +504,12 @@ body{
     margin-top: 2.5rem;
 }
 
+@media (min-width: 35em){
+    .numbered-title{
+        justify-self: start; /*can't use text-align*/
+    }
+}
+
 /*desktop size*/
 @media (min-width: 45em){
     .grid-container{
