@@ -461,6 +461,7 @@ body{
     text-align: center;
     place-items: center; /*short for justify and align items*/
     padding-inline: 1rem;
+    padding-bottom: 4rem;
     /* border: 3px solid blue; */
 }
 
