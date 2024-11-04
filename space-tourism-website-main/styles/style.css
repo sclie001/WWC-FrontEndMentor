@@ -507,6 +507,7 @@ body{
 @media (min-width: 35em){
     .numbered-title{
         justify-self: start; /*can't use text-align*/
+        margin-top: 2rem;
     }
 }
 
