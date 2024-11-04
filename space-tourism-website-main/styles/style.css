@@ -509,6 +509,10 @@ body{
         justify-self: start; /*can't use text-align*/
         margin-top: 2rem;
     }
+
+    .destination-meta{
+        flex-direction: row;
+    }
 }
 
 /*desktop size*/
