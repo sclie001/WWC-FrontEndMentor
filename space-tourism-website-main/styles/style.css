@@ -512,6 +512,7 @@ body{
 
     .destination-meta{
         flex-direction: row;
+        justify-content: space-evenly;
     }
 }
 
