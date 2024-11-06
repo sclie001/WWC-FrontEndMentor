@@ -38,6 +38,10 @@ body{
     color: var(--dark-blue);
 }
 
+.order-description, .annual-plan-price{
+    color: var(--desaturated-blue);
+}
+
 /*******************************
 *  Frontend Mentor attribution *
 ********************************/
