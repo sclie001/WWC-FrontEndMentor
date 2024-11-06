@@ -26,13 +26,16 @@ body{
 }
 
 .order-description{
-    color: var(--desaturated-blue);
     line-height: 25px;
 }
 
 .annual-plan-container{
     width: 100%;
     background-color: var(--very-pale-blue);
+}
+
+.title, .annual-plan-txt{
+    color: var(--dark-blue);
 }
 
 /*******************************
