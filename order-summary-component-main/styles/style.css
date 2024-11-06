@@ -20,6 +20,10 @@ body{
     width: 100%;
 }
 
+.title{
+    font-weight: 900;
+}
+
 /*******************************
 *  Frontend Mentor attribution *
 ********************************/
