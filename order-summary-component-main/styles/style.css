@@ -16,6 +16,10 @@ body{
     background-color: white;
 }
 
+.card img{
+    width: 100%;
+}
+
 /*******************************
 *  Frontend Mentor attribution *
 ********************************/
