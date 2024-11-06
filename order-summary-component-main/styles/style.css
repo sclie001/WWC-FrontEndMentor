@@ -30,6 +30,11 @@ body{
     line-height: 25px;
 }
 
+.annual-plan-container{
+    width: 100%;
+    background-color: var(--very-pale-blue);
+}
+
 /*******************************
 *  Frontend Mentor attribution *
 ********************************/
