@@ -10,6 +10,7 @@ body{
     background-image: url("/images/pattern-background-mobile.svg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: var(--pale-blue);
 }
 .card{
     background-color: white;
