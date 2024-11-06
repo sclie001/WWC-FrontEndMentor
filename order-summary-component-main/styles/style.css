@@ -27,6 +27,7 @@ body{
 
 .order-description{
     color: var(--desaturated-blue);
+    line-height: 25px;
 }
 
 /*******************************
