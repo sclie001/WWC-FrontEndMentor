@@ -54,6 +54,7 @@ body{
 .annual-plan-icon-txt-price-container{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 /*******************************
