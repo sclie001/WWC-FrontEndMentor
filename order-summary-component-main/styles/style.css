@@ -58,6 +58,10 @@ body{
     justify-content: space-between;
 }
 
+.annual-plan-link{
+    margin: 1rem;
+}
+
 /*******************************
 *  Frontend Mentor attribution *
 ********************************/
