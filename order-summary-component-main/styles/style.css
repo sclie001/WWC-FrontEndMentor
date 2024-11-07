@@ -42,6 +42,10 @@ body{
     color: var(--desaturated-blue);
 }
 
+.annual-plan-icon{
+    width:10%;
+}
+
 /*******************************
 *  Frontend Mentor attribution *
 ********************************/
