@@ -32,8 +32,9 @@ body{
 .annual-plan-container{
     display: flex;
     align-items: center;
-    width: 100%;
+    max-width: 100%;
     background-color: var(--very-pale-blue);
+    padding: .5rem;
 }
 
 .title, .annual-plan-txt{
