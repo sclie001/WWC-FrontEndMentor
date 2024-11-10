@@ -4,6 +4,8 @@
     --very-pale-blue: hsl(225, 100%, 98%);
     --desaturated-blue: hsl(224, 23%, 55%);
     --dark-blue: hsl(223, 47%, 23%);
+    /*font size*/
+    --fs-400: 1rem;
 }
 
 body{
@@ -12,6 +14,11 @@ body{
     background-size: cover;
     background-color: var(--pale-blue);
 }
+
+p{
+    font-size: var(--fs-400);
+}
+
 .card{
     background-color: white;
 }
