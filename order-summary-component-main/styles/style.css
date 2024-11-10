@@ -8,6 +8,8 @@
     --very-pale-blue: hsl(225, 100%, 98%);
     --desaturated-blue: hsl(224, 23%, 55%);
     --dark-blue: hsl(223, 47%, 23%);
+    /*font size*/
+    --fs-400: 1rem;
     /*font family*/
     --ff-sans-serif: "Red Hat Display", sans-serif; 
 }
