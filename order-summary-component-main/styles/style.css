@@ -34,8 +34,11 @@ body{
 p{
     font-size: var(--fs-400);
 }
+
 .card{
+    border-radius: 1.25rem;
     background-color: white;
+    overflow: hidden;
 }
 
 .card img{
