@@ -7,6 +7,10 @@
 }
 
 body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-image: url("/images/pattern-background-mobile.svg");
     background-repeat: no-repeat;
     background-size: cover;
