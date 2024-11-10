@@ -6,6 +6,10 @@
     --dark-blue: hsl(223, 47%, 23%);
 }
 
+h1, h4, p{
+    margin: 0;
+}
+
 body{
     display: flex;
     flex-direction: column;
