@@ -30,6 +30,10 @@ body{
     background-color: var(--pale-blue);
     font-family: var(--ff-sans-serif);
 }
+
+p{
+    font-size: var(--fs-400);
+}
 .card{
     background-color: white;
 }
