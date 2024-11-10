@@ -11,6 +11,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 2rem 1rem;
     background-image: url("/images/pattern-background-mobile.svg");
     background-repeat: no-repeat;
     background-size: cover;
