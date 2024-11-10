@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
 :root{
+    /*colors*/
     --pale-blue: hsl(225, 100%, 94%);
     --bright-blue: hsl(245, 75%, 52%);
     --very-pale-blue: hsl(225, 100%, 98%);
     --desaturated-blue: hsl(224, 23%, 55%);
     --dark-blue: hsl(223, 47%, 23%);
+    /*font family*/
+    --ff-sans-serif: "Red Hat Display", sans-serif; 
 }
 
 h1, h4, p{
@@ -20,6 +26,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-color: var(--pale-blue);
+    font-family: var(--ff-sans-serif);
 }
 .card{
     background-color: white;
