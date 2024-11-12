@@ -14,7 +14,7 @@
     --ff-sans-serif: "Red Hat Display", sans-serif; 
 }
 
-h1, h4, p{
+h1, h4, p, body{
     margin: 0;
 }
 
