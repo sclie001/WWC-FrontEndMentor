@@ -103,6 +103,7 @@ main > *{
 }
 
 .payment-button{
+    width: 100%;
     background-color: var(--bright-blue);
     padding: 1rem 2rem;
     color:white;
