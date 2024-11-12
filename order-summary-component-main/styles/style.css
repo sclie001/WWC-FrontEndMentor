@@ -122,6 +122,7 @@ main > *{
 
 .cancel-button{
     width: 100%;
+    padding: 1rem 2rem;
     background-color: white;
     color: var(--desaturated-blue);
     font-size: var(--fs-200);
