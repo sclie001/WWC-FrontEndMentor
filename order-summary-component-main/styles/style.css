@@ -133,6 +133,10 @@ main > *{
     cursor: pointer;
 }
 
+.cancel-button:hover{
+    color: black;
+}
+
 /*******************************
 *  Frontend Mentor attribution *
 ********************************/
