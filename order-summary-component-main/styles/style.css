@@ -58,6 +58,7 @@ main > *{
 }
 
 .title{
+    padding-top: 2rem;
     font-weight: 900;
     color: var(--dark-blue);
 }
