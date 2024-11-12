@@ -46,6 +46,12 @@ p{
     overflow: hidden;
 }
 
+@media (min-width: 45em){
+    .card{
+        width: 36%;
+    }
+}
+
 .card img{
     width: 100%;
 }
