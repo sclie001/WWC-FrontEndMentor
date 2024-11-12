@@ -105,6 +105,7 @@ main > *{
 .payment-button{
     width: 100%;
     background-color: var(--bright-blue);
+    box-shadow: 0 15px 30px -5px rgb(197 189 245);
     padding: 1rem 2rem;
     color:white;
     font-family: inherit;
