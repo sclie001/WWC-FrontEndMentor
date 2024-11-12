@@ -78,6 +78,12 @@ main > *{
     max-width: 25ch;
 }
 
+@media (min-width: 45em){
+    .order-description{
+        max-width: 34ch;
+    }
+} 
+
 .annual-plan-container{
     display: flex;
     align-items: center;
