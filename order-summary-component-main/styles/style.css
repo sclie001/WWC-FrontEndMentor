@@ -120,6 +120,10 @@ main > *{
     opacity: 0.75;
 }
 
+.cancel-button{
+    width: 100%;
+}
+
 /*******************************
 *  Frontend Mentor attribution *
 ********************************/
