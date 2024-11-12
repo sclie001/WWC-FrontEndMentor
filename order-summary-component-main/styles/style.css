@@ -123,6 +123,7 @@ main > *{
 .cancel-button{
     width: 100%;
     background-color: white;
+    color: var(--desaturated-blue);
 }
 
 /*******************************
