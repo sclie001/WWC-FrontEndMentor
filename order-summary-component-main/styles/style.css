@@ -116,6 +116,10 @@ main > *{
     cursor: pointer;
 }
 
+.payment-button:hover{
+    opacity: 0.75;
+}
+
 /*******************************
 *  Frontend Mentor attribution *
 ********************************/
