@@ -68,6 +68,12 @@ main > *{
     margin-bottom: 1.5rem;
 }
 
+@media (min-width: 45em){
+    main{
+        padding: 0 2.5rem 2.5rem 2.5rem;
+    }
+}
+
 .title{
     padding-top: 2rem;
     font-weight: var(--fw-900);
