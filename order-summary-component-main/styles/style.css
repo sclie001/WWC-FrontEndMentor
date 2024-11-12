@@ -129,6 +129,7 @@ main > *{
     font-size: var(--fs-200);
     font-weight: 700;
     border: none;
+    border-radius: 0.75rem;
 }
 
 /*******************************
