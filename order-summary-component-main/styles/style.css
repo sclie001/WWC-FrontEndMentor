@@ -11,6 +11,10 @@
     /*font size*/
     --fs-400: 1rem;
     --fs-200: 0.9rem;
+    /*font weight*/
+    --fw-900: 900;
+    --fw-700: 700;
+    --fw-500: 500;
     /*font family*/
     --ff-sans-serif: "Red Hat Display", sans-serif; 
 }
@@ -60,7 +64,7 @@ main > *{
 
 .title{
     padding-top: 2rem;
-    font-weight: 900;
+    font-weight: var(--fw-900);
     color: var(--dark-blue);
 }
 
@@ -107,7 +111,7 @@ button{
     font-size: var(--fs-200);
     padding: 1rem 2rem;
     font-family: inherit;
-    font-weight: 700;
+    font-weight: var(--fw-700);
     border: none;
     border-radius: 0.75rem;
     cursor: pointer;
