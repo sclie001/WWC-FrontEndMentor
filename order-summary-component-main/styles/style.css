@@ -69,6 +69,7 @@ main > *{
 
 .order-description{
     line-height: 25px;
+    max-width: 25ch;
 }
 
 .annual-plan-container{
