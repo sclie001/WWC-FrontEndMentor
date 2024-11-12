@@ -127,6 +127,7 @@ main > *{
     background-color: white;
     color: var(--desaturated-blue);
     font-size: var(--fs-200);
+    font-weight: 700;
     border: none;
 }
 
