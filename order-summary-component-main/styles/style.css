@@ -106,8 +106,9 @@ main > *{
     color: var(--bright-blue);
 }
 
-.annual-plan-link:hover{
+.annual-plan-link a:hover{
     opacity: 0.8;
+    text-decoration: none;
 }
 
 button{
