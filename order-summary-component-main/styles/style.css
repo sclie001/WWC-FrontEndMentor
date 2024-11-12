@@ -101,6 +101,10 @@ main > *{
     margin: 1rem;
 }
 
+.payment-button{
+    background-color: var(--bright-blue);
+}
+
 /*******************************
 *  Frontend Mentor attribution *
 ********************************/
