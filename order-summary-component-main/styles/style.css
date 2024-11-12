@@ -102,18 +102,21 @@ main > *{
     margin: 1rem;
 }
 
-.payment-button{
+button{
     width: 100%;
-    background-color: var(--bright-blue);
-    box-shadow: 0 15px 30px -5px rgb(197 189 245);
-    padding: 1rem 2rem;
-    color:white;
-    font-family: inherit;
     font-size: var(--fs-200);
+    padding: 1rem 2rem;
+    font-family: inherit;
     font-weight: 700;
     border: none;
     border-radius: 0.75rem;
     cursor: pointer;
+}
+
+.payment-button{
+    background-color: var(--bright-blue);
+    box-shadow: 0 15px 30px -5px rgb(197 189 245);
+    color:white;
 }
 
 .payment-button:hover{
@@ -121,16 +124,9 @@ main > *{
 }
 
 .cancel-button{
-    width: 100%;
-    padding: 1rem 2rem;
     margin-top: 1.05rem;
     background-color: white;
     color: var(--desaturated-blue);
-    font-size: var(--fs-200);
-    font-weight: 700;
-    border: none;
-    border-radius: 0.75rem;
-    cursor: pointer;
 }
 
 .cancel-button:hover{
