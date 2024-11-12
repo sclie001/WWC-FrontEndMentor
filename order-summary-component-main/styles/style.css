@@ -36,6 +36,15 @@ body{
     font-family: var(--ff-sans-serif);
 }
 
+@media (min-width: 45em){
+    body{
+        background-image: url("/images/pattern-background-desktop.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right top;
+    }
+}
+
 p{
     font-size: var(--fs-400);
 }
