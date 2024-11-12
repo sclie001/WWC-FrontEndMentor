@@ -105,6 +105,7 @@ main > *{
     background-color: var(--bright-blue);
     padding: 1rem 2rem;
     color:white;
+    font-family: inherit;
 }
 
 /*******************************
