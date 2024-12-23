@@ -555,6 +555,10 @@ body{
     .grid-container--destination > img{
         max-width: 90%;
     }
+
+    .destination-meta{
+        justify-content: start;
+    }
 }
 
 /* .grid-container > *:first-child{
