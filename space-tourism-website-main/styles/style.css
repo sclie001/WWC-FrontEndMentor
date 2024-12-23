@@ -551,6 +551,10 @@ body{
         '. image tabs .'
         '. image content .';
     }
+
+    .grid-container--destination > img{
+        max-width: 90%;
+    }
 }
 
 /* .grid-container > *:first-child{
