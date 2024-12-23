@@ -557,6 +557,7 @@ body{
     }
 
     .destination-meta{
+        --gap: 6rem;
         justify-content: start;
     }
 }
