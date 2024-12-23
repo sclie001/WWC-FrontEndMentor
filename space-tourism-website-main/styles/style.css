@@ -545,7 +545,7 @@ body{
     }
 
     .grid-container--destination{
-        
+        justify-items: start;
         grid-template-areas: 
         '. title title .' /* . means empty area, which represents the 1fr space we created @ first and last columns*/
         '. image tabs .'
