@@ -529,12 +529,12 @@ body{
         make body be grid*/
     }
 
-    .grid-container > *:first-child{
+    .grid-container--home > *:first-child{
         grid-column: 2;
         /* outline: 1px solid red; */
     }
     
-    .grid-container > *:last-child{
+    .grid-container--home > *:last-child{
         grid-column: 3;
         /* outline: 1px solid yellow; */
     }
