@@ -550,6 +550,7 @@ body{
 
     .grid-container--destination{
         justify-items: start;
+        align-content: start;/*keep content from pulling away in larger screen sizes.*/
         grid-template-areas: 
         '. title title .' /* . means empty area, which represents the 1fr space we created @ first and last columns*/
         '. image tabs .'
