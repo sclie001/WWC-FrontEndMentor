@@ -308,6 +308,7 @@ body{
     padding: var(--underline-gap, 1rem) 0; /*set default value for created var on top/bottom padding*/
     border: none;
     border-bottom: .2rem solid hsl(var(--clr-white) / 0);/* white with opacity 0*/
+    background: transparent;
 }
 
 .underline-indicators > *:hover,
