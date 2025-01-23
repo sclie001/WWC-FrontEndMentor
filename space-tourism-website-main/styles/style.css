@@ -465,7 +465,8 @@ body{
     /* border: 3px solid blue; */
 }
 
-.grid-container * {
+/*p elements that don't have a class text-accent*/
+.grid-container p:not(.text-accent) {
     max-width: 50ch; /*maximum of 50 char a line*/
 }
 
