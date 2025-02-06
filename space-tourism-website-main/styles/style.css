@@ -564,7 +564,7 @@ body{
     }
 
     .destination-meta{
-        --gap: 6rem;
+        --gap: min(6vh, 6rem);/*screen size between tablet and desktop, 6rem gap too big b/c text was taking up two rows instead of 1 row each */
         justify-content: start;
     }
 }
