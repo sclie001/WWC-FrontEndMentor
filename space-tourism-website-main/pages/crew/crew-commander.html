@@ -7,13 +7,22 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   
   <title>Frontend Mentor | Space tourism website</title>
+  <link href="/styles/style.css" rel="stylesheet" >
+  
 </head>
 <body>
-
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+  <header class="primary-header flex">
+    <div><img class="logo" src="/assets/shared/logo.svg" alt="logo"></div>
+    <button class="mobile-nav-toggle"><span class="sr-only" aria-controls="primary-navigation" aria-expanded="false">Menu</span></button>
+    <nav>
+      <ul data-visible="false" class="primary-navigation underline-indicators flex">
+        <li><a class="uppercase text-white ff-sans-cond letter-spacing-2" href="/index.html"><span aria-hidden="true">00</span>Home</a></li>
+        <li><a class="uppercase text-white ff-sans-cond letter-spacing-2" href="/pages/destination/destination-moon.html"><span aria-hidden="true">01</span>Destination</a></li>
+        <li class="active"><a class="uppercase text-white ff-sans-cond letter-spacing-2" href="/pages/crew/crew-commander.html"><span aria-hidden="true">02</span>Crew</a></li>
+        <li><a class="uppercase text-white ff-sans-cond letter-spacing-2" href="/pages/technology/technology-vehicle.html"><span aria-hidden="true">03</span>Technology</a></li>
+      </ul>
+    </nav>
+  </header>
 
   02 Meet your crew
 
