@@ -332,6 +332,7 @@ body{
     border-radius: 50%; /*but they look flat, not round in this case*/
     aspect-ratio: 1;/*in combination to border radius, now round */
     padding: .5em;
+    background-color: hsl(var(--clr-white) / .25);
 }
 
 /*navigation bar*/
