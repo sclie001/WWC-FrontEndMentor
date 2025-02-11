@@ -599,3 +599,27 @@ body{
 }
 
 /*crew layout*/
+.grid-container--crew{
+    grid-template-areas: 
+    'title'
+    'image'
+    'dots'
+    'content';
+}
+
+.numbered-title{
+    grid-area: title;
+}
+
+.grid-container--crew > img{
+    grid-area: image;
+}
+
+.dot-indicators{
+    grid-area: dots;
+}
+
+.crew-info{
+    grid-area: content;
+}
+
