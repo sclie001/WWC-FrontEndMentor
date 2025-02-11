@@ -335,6 +335,11 @@ body{
     background-color: hsl(var(--clr-white) / .25);
 }
 
+.dot-indicators > *:hover,
+.dot-indicators > *:focus{
+    background-color: hsl(var(--clr-white) / .50);
+}
+
 /*navigation bar*/
 
 
