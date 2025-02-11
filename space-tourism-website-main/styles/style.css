@@ -614,6 +614,7 @@ body{
 .grid-container--crew > img{
     grid-area: image;
     max-width: 60%;
+    border-bottom: 1px solid hsl(var(--clr-white) / .1);
 }
 
 .dot-indicators{
