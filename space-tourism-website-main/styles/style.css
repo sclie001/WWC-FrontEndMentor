@@ -613,6 +613,7 @@ body{
 
 .grid-container--crew > img{
     grid-area: image;
+    max-width: 60%;
 }
 
 .dot-indicators{
