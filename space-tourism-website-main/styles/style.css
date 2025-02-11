@@ -331,7 +331,7 @@ body{
     border: 0;
     border-radius: 50%; /*but they look flat, not round in this case*/
     aspect-ratio: 1;/*in combination to border radius, now round */
-
+    padding: .5em;
 }
 
 /*navigation bar*/
