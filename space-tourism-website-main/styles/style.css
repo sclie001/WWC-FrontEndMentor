@@ -600,6 +600,7 @@ body{
 
 /*crew layout*/
 .grid-container--crew{
+    --flow-space: 2rem;
     grid-template-areas: 
     'title'
     'image'
