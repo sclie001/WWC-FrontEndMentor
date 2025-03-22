@@ -58,5 +58,6 @@
   body{
     font-family: var(--ff-base);
     font-weight: var(--fw-regular);
+    font-size: 0.875rem;
     color: var(--clr-neutral-400);
   }
