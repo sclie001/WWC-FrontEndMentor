@@ -6,6 +6,10 @@
     --clr-neutral-900: hsl(212, 21%, 14%);
     --clr-neutral-400: hsl(228, 12%, 48%);
     --clr-neutral-100: hsl(0, 0%, 100%);
+
+    /*typography*/
+    --fw-regular: 500;
+    --fw-bold: 700;
 }
 
 /* Use a more-intuitive box-sizing model */
