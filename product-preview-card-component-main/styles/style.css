@@ -61,4 +61,9 @@
     font-size: 0.875rem;
     color: var(--clr-neutral-400);
     background-color: var(--clr-secondary-200);
+
+    /*for this project only b/c content is centered for all screens*/
+    display: grid;
+    min-height: 100vh;
+    place-content: center;
   }
