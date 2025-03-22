@@ -13,6 +13,9 @@
     /*typography*/
     --fw-regular: 500;
     --fw-bold: 700;
+
+    --ff-accent: 'Fraunces', serif;
+    --ff-base: 'Montserrat', sans-serif;
 }
 
 /* Use a more-intuitive box-sizing model */
