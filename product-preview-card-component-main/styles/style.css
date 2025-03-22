@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500..700;&display=swap');
+
+
+:root {
+    /*colors*/
+    --clr-primary-400: hsl(158, 36%, 37%);
+    --clr-secondary-200: hsl(30, 38%, 92%);
+
+    --clr-neutral-900: hsl(212, 21%, 14%);
+    --clr-neutral-400: hsl(228, 12%, 48%);
+    --clr-neutral-100: hsl(0, 0%, 100%);
+
+    /*typography*/
+    --fw-regular: 500;
+    --fw-bold: 700;
+
+    --ff-accent: 'Fraunces', serif;
+    --ff-base: 'Montserrat', sans-serif;
+}
+
 /* Use a more-intuitive box-sizing model */
 *, *::before, *::after {
     box-sizing: border-box;
