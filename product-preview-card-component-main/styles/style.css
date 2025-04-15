@@ -101,3 +101,9 @@
     letter-spacing: 5px;
     text-transform: uppercase;
   }
+
+  .product__title{
+    font-size: 2rem;
+    font-family: var(--ff-accent);
+    color: var(--clr-neutral-900);
+  }
