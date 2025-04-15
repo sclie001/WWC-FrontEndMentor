@@ -99,4 +99,5 @@
 
   .product__title{
     font-size: 2rem;
+    font-family: var(--ff-accent);
   }
