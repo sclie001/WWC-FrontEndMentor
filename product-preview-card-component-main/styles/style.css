@@ -68,3 +68,8 @@
     place-content: center;
     margin: 1rem;
   }
+
+  /*utilities*/
+  .flex-group{
+    display: flex;
+  }
