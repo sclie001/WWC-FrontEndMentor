@@ -97,6 +97,7 @@
   }
 
   .product__category{
+    font-size: 0.8125rem;
     letter-spacing: 5px;
     text-transform: uppercase;
   }
