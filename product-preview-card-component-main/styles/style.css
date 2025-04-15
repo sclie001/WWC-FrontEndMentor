@@ -73,4 +73,5 @@
   .flex-group{
     display: flex;
     gap: 1rem;
+    flex-wrap: wrap; /*prevent overflow (may not need b/c screen probably not too small)*/
   }
