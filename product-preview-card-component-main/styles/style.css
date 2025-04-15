@@ -96,3 +96,7 @@
     letter-spacing: 5px;
     text-transform: uppercase;
   }
+
+  .product__title{
+    font-size: 2rem;
+  }
