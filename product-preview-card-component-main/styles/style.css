@@ -91,3 +91,7 @@
     gap: var(--content-spacing);
     padding: var(--content-padding);
   }
+
+  .product__category{
+    text-transform: uppercase;
+  }
