@@ -107,3 +107,8 @@
     font-family: var(--ff-accent);
     color: var(--clr-neutral-900);
   }
+
+  .text-lg-title-price{
+    font-size: 2rem;
+    font-family: var(--ff-accent);
+  }
