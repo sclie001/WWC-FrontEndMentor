@@ -112,3 +112,7 @@
     font-size: 2rem;
     font-family: var(--ff-accent);
   }
+
+  .product__price{
+    color: var(--clr-primary-400);
+  }
