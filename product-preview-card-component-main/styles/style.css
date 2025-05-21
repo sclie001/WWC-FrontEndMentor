@@ -79,6 +79,14 @@
     flex-wrap: wrap; /*prevent overflow (may not need b/c screen probably not too small)*/
   }
 
+  .fs-lg{
+    font-size: 2rem;
+  }
+
+  .ff-accent{
+    font-family: var(--ff-accent);
+  }
+
   /*product styles*/
   .product{
     --content-padding: 1.5rem;
@@ -103,11 +111,6 @@
 
   .product__title{
     color: var(--clr-neutral-900);
-  }
-
-  .text-lg-title-price{
-    font-size: 2rem;
-    font-family: var(--ff-accent);
   }
 
   .product__price{
