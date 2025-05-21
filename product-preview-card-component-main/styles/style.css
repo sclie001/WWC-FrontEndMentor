@@ -80,6 +80,17 @@
     align-items: center;
   }
 
+  .visually-hidden:not(:focus):not(:active){
+    /*screen readers*/
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    position: absolute;
+    height: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 1px;
+  }
+
   .fs-lg{
     font-size: 2rem;
   }
