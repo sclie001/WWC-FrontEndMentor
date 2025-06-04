@@ -103,6 +103,9 @@
   button{
     cursor: pointer;
     text-decoration: none; /*in case button becomes link later on*/
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
   }
 
   /*product styles*/
