@@ -110,6 +110,7 @@
     border: 0;
 
     background-color: var(--clr-primary-400);
+    color: var(--clr-neutral-100);
   }
 
   /*product styles*/
