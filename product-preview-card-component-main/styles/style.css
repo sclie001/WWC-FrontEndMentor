@@ -102,6 +102,7 @@
   /*button*/
   button{
     cursor: pointer;
+    text-decoration: none; /*in case button becomes link later on*/
   }
 
   /*product styles*/
