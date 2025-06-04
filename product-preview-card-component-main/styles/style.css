@@ -99,6 +99,11 @@
     font-family: var(--ff-accent);
   }
 
+  /*button*/
+  button{
+    cursor: pointer;
+  }
+
   /*product styles*/
   .product{
     --content-padding: 1.5rem;
