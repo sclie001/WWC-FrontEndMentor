@@ -105,6 +105,7 @@
     cursor: pointer;
     text-decoration: none; /*in case button becomes link later on*/
     display: inline-flex;
+    gap: 0.75rem;
     justify-content: center;
     align-items: center;
     padding: 0.5em 1.5em;
