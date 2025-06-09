@@ -111,6 +111,7 @@
 
     background-color: var(--clr-primary-400);
     color: var(--clr-neutral-100);
+    font-weight: var(--fw-bold);
   }
 
   /*product styles*/
