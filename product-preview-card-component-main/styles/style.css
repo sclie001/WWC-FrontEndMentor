@@ -116,6 +116,12 @@
     font-weight: var(--fw-bold);
   }
 
+  .button[data-icon="shopping-cart"]::before{
+    content: "";
+    width: 15px;
+    height: 16px;
+  }
+
   .button:is(:hover, :focus){
     background-color: var(--clr-primary-500);
   }
