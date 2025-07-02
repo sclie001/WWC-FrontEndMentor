@@ -142,6 +142,7 @@
 
   @media (min-width: 37.5em){
     .product{
+      --content-padding: 2rem;
       grid-template-columns: 1fr 1fr;
     }
   }
