@@ -11,7 +11,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
@@ -23,6 +22,16 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover and focus states for interactive elements
 
+### Screenshot
+
+![](./Product%20Preview-mobile%20design.jpg)
+![](./Product-Preview-desktop-600px%20size.jpg)
+![](./Product-Preview-desktop.jpg)
+
+### Links
+
+- Live Site URL: [View Product Preview live](https://sclie001.github.io/WWC-FrontEndMentor/product-preview-card-component-main/)
+
 ## My process
 
 ### Built with
@@ -32,3 +41,5 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+
+### What I learned
