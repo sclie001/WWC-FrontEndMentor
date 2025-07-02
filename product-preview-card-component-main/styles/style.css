@@ -137,6 +137,7 @@
     background-color: var(--clr-neutral-100);
     border-radius: 0.5rem;
     overflow: hidden;/*in this proj, won't be a problem*/
+    max-width: 37.5rem;/*prevents image from getting too tall, causing growing spacing and button*/
   }
 
   @media (min-width: 37.5em){
