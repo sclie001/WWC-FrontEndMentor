@@ -44,6 +44,11 @@ h1, h2, h3{
 *****************/
 body{
     background-color: var(--clr-primary-400);
+
+    display: grid;
+    min-height: 100vh;
+    place-content: center;
+    margin: 1rem;
 }
 
 .attribution { font-size: 11px; text-align: center; }
