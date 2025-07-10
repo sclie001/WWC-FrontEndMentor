@@ -7,6 +7,7 @@
 
     --clr-neutral: hsl(0, 0%, 100%);
 
+    --clr-gray500: hsl(0, 0%, 42%);
     /*font family*/
     --ff-serif: "Figtree", sans-serif; 
 }
@@ -51,6 +52,7 @@ h1, h2, h3{
 body{
     background-color: var(--clr-primary-400);
     font-family: var(--ff-serif);
+    color: var(--clr-gray500);
 
     display: grid;
     min-height: 100vh;
