@@ -5,6 +5,43 @@
     --clr-primary-400: hsl(47, 88%, 63%);   
 }
 
+/***************
+***css resets***
+****************/
+
+/* Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+/*remove default margin*/
+* {
+    margin: 0;
+}
+
+/*improve media defaults*/
+img, picture, svg{
+    display: block;
+    max-width: 100%;
+}
+
+/*inherit fonts for form controls (in this proj, its only button*/
+button{
+    font: inherit;
+}
+
+/*avoid text overflows*/
+p, h1, h2, h3, h4, h5, h6{
+    overflow-wrap: break-word;
+}
+
+h1, h2, h3{
+    line-height: 1;
+}
+
+/****************
+*general styling*
+*****************/
 body{
     background-color: var(--clr-primary-400);
 }
