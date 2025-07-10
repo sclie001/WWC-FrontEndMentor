@@ -1,0 +1,10 @@
+
+:root {
+    /*colors*/
+
+    --clr-primary-400: hsl(47, 88%, 63%);   
+}
+
+body{
+    background-color: var(--clr-primary-400);
+}
