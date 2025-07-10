@@ -80,4 +80,10 @@ One more thing I learned was how to use the data attribute to style the shopping
   }
 ```
 
+### Useful resources
+
+- [Example resource 1](https://w3schools.com) - Used this resource for quick referencing and practicing on html or css concepts
+
+- [Example resource 2](https://developer.mozilla.org) - Used this resource for referencing and more explanation of concepts
+
 
