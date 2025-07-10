@@ -89,4 +89,8 @@ One more thing I learned was how to use the data attribute to style the shopping
 ## Author
 - Frontend Mentor - [@sclie001](https://www.frontendmentor.io/profile/sclie001)
 
+## Acknowledgments
+
+When I felt stuck on a concept, I found a developer/Youtuber named, Kevin Powell who walked through solving this challenge. He is good at explaining concepts instead of just coding.
+
 
