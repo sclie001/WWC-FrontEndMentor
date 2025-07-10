@@ -58,5 +58,10 @@ body{
     padding: 1.25rem;
 }
 
+.blog__content{
+    display: grid;
+    gap: 1rem;
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
