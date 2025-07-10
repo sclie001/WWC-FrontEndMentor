@@ -3,6 +3,8 @@
     /*colors*/
 
     --clr-primary-400: hsl(47, 88%, 63%);   
+
+    --clr-neutral: hsl(0, 0%, 100%);
 }
 
 /***************
@@ -49,6 +51,10 @@ body{
     min-height: 100vh;
     place-content: center;
     margin: 1rem;
+}
+
+.blog{
+    background-color: var(--clr-neutral);
 }
 
 .attribution { font-size: 11px; text-align: center; }
