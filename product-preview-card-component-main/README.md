@@ -86,4 +86,7 @@ One more thing I learned was how to use the data attribute to style the shopping
 
 - [Example resource 2](https://developer.mozilla.org) - Used this resource for referencing and more explanation of concepts
 
+## Author
+- Frontend Mentor - [@sclie001](https://www.frontendmentor.io/profile/sclie001)
+
 
