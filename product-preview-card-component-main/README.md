@@ -43,3 +43,41 @@ Users should be able to:
 - Mobile-first workflow
 
 ### What I learned
+
+I learned to use html to change an image based on screen size when it is not a background image. For example:
+
+```html
+<picture class="product__img">
+  <source srcset="images/image-product-desktop.jpg" media="(min-width: 37.5em)">
+  <img src="images/image-product-mobile.jpg" alt="Gabrielle Essence perfume bottle laying flat on a table">
+</picture>
+```
+
+I also learned how to use the BEM naming convention for class names.
+
+```html
+<article class="product">
+  <picture class="product__img">
+    <source srcset="images/image-product-desktop.jpg" media="(min-width: 37.5em)">
+    <img src="images/image-product-mobile.jpg" alt="Gabrielle Essence perfume bottle laying flat on a table">
+  </picture>
+
+  <div class="product__content">
+    <p class="product__category">Perfume</p>...
+```
+
+One more thing I learned was how to use the data attribute to style the shopping cart button to have the icon display first
+
+```html
+<button class="button" data-icon="shopping-cart">Add to Cart</button>
+```
+```css
+ .button[data-icon="shopping-cart"]::before{
+    content: "";
+    background-image: url("/images/icon-cart.svg");
+    width: 15px;
+    height: 16px;
+  }
+```
+
+
