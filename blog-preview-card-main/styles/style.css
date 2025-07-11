@@ -6,7 +6,7 @@
     --clr-primary-400: hsl(47, 88%, 63%);   
 
     --clr-neutral: hsl(0, 0%, 100%);
-
+    --clr-gray900: hsl(0, 0%, 7%);
     --clr-gray500: hsl(0, 0%, 42%);
     /*font family*/
     --ff-serif: "Figtree", sans-serif; 
