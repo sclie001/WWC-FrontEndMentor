@@ -10,6 +10,8 @@
     --clr-gray500: hsl(0, 0%, 42%);
     /*font family*/
     --ff-serif: "Figtree", sans-serif; 
+    
+    --fw-bold: 800;
 }
 
 /***************
@@ -73,6 +75,7 @@ body{
 
 .blog__learning{
     color: var(--clr-gray900);
+    font-weight: var(--fw-bold);
 }
 
 .attribution { font-size: 11px; text-align: center; }
