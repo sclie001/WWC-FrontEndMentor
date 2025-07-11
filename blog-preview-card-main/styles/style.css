@@ -71,5 +71,9 @@ body{
     gap: 1rem;
 }
 
+.blog__learning{
+    color: var(--clr-gray900);
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
