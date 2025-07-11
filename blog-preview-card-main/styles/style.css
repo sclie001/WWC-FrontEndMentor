@@ -76,6 +76,11 @@ body{
 .blog__learning{
     color: var(--clr-gray900);
     font-weight: var(--fw-bold);
+    background-color: var(--clr-primary-400);
+    display:inline;
+    width:fit-content;
+    height: fit-content;
+    padding: 0.45rem 0.75rem;
 }
 
 .attribution { font-size: 11px; text-align: center; }
