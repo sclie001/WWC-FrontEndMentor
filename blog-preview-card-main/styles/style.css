@@ -104,6 +104,7 @@ body{
 
 .blog__description{
     font-size: var(--fs-sm);
+    line-height: 1.6;
 }
 
 .attribution { font-size: 11px; text-align: center; }
