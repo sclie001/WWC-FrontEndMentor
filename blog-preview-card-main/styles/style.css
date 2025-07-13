@@ -12,6 +12,7 @@
     --ff-serif: "Figtree", sans-serif; 
     
     --fw-bold: 800;
+    --fw-regular: 500;
 }
 
 /***************
@@ -81,6 +82,10 @@ body{
     width:fit-content;
     height: fit-content;
     padding: 0.45rem 0.75rem;
+}
+
+.blog__publishDate{
+    font-weight: var(--fw-regular);
 }
 
 .attribution { font-size: 11px; text-align: center; }
