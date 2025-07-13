@@ -91,6 +91,7 @@ body{
 
 .blog__title{
     font-weight: var(--fw-bold);
+    color: var(--clr-gray950);
 }
 
 .attribution { font-size: 11px; text-align: center; }
