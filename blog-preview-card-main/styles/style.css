@@ -70,8 +70,10 @@ body{
 }
 
 .blog__content{
+    --white-space: 1rem;
+
     display: grid;
-    gap: 1rem;
+    gap: var(--white-space);
 }
 
 .blog__learning{
@@ -90,8 +92,11 @@ body{
 }
 
 .blog__title{
+    --white-space: 0.25rem;
+
     font-weight: var(--fw-bold);
     color: var(--clr-gray950);
+    padding-top: var(--white-space);
 }
 
 .attribution { font-size: 11px; text-align: center; }
