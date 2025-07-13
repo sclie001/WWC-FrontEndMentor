@@ -89,5 +89,9 @@ body{
     color: var(--clr-gray950);
 }
 
+.blog__title{
+    font-weight: var(--fw-bold);
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
