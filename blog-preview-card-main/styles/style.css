@@ -13,6 +13,9 @@
     
     --fw-bold: 800;
     --fw-regular: 500;
+
+    /*size*/
+    --fs-sm: 0.875rem;
 }
 
 /***************
@@ -97,6 +100,10 @@ body{
     font-weight: var(--fw-bold);
     color: var(--clr-gray950);
     padding-top: var(--white-space);
+}
+
+.blog__description{
+    font-size: var(--fs-sm);
 }
 
 .attribution { font-size: 11px; text-align: center; }
