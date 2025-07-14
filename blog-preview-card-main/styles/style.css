@@ -125,6 +125,7 @@ body{
 
 .blog__author > p{
     color: var(--clr-gray950);
+    font-weight: var(--fw-bold);
 }
 
 .attribution { font-size: 11px; text-align: center; }
