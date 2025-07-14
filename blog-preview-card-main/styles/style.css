@@ -123,5 +123,9 @@ body{
    height: 2.3em;
 }
 
+.blog__author > p{
+    color: var(--clr-gray950);
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
