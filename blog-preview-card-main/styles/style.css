@@ -111,6 +111,7 @@ body{
 .blog__author{
     display: flex;
     align-items: center;
+    gap: var(--white-space);
 }
 
 .blog__author :nth-child(1){
