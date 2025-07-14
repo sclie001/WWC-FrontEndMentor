@@ -110,6 +110,7 @@ body{
 
 .blog__author{
     display: flex;
+    align-items: center;
 }
 
 .blog__author :nth-child(1){
