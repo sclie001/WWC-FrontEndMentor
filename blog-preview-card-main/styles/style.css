@@ -86,6 +86,7 @@ body{
 
 .blog__publishDate{
     font-weight: var(--fw-regular);
+    font-size: var(--fs-sm);
     color: var(--clr-gray950);
 }
 
