@@ -116,5 +116,10 @@ body{
     order: 2;
 }
 
+.author-image{
+   width: 2.3em;
+   height: 2.3em;
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
