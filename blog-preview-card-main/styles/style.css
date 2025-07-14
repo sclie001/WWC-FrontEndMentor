@@ -108,5 +108,9 @@ body{
     line-height: 1.6;
 }
 
+.blog__author{
+    display: flex;
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
