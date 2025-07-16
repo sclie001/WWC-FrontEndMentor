@@ -108,6 +108,11 @@ body{
     padding-top: var(--white-space);
 }
 
+.blog__title:hover, .blog__title:focus{
+    cursor: pointer;
+    color: var(--clr-primary-400);
+}
+
 .blog__description{
     font-size: var(--fs-sm);
     line-height: 1.6;
