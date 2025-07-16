@@ -61,6 +61,7 @@ body{
     color: var(--clr-gray500);
 
     display: grid;
+    gap: 1rem;
     min-height: 100vh;
     place-content: center;
     margin: 1rem;
