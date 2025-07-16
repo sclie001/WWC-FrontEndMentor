@@ -75,6 +75,7 @@ body{
     border-radius: 1rem;
 
     border: 1.5px solid var(--clr-gray950);
+    box-shadow: 0.5rem 0.5rem var(--clr-gray950);
 }
 
 .blog__content{
