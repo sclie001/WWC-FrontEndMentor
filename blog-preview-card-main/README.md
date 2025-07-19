@@ -31,4 +31,4 @@ Users should be able to:
 
 ## My process
 
-Build from what I currently know. Then if there was something I forgot how to do with HTML or CSS, I used W3Schools as a reference.
+Build from what I currently know. Then if there was something I forgot how to do with HTML or CSS, I used [W3Schools](https://w3schools.com) as a reference.
