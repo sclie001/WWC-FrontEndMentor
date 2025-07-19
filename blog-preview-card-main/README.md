@@ -6,6 +6,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
 
 
 ## Overview
@@ -17,3 +18,7 @@ To build out a blog preview card and get it looking as close to the design as po
 Users should be able to:
 
 - See hover and focus states for all interactive elements on the page
+
+### Screenshot
+
+![](./blog preview card.jpeg)
