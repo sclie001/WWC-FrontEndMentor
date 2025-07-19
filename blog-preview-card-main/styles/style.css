@@ -67,6 +67,10 @@ body{
     margin: 1rem;
 }
 
+/**********
+*blog card*
+************/
+
 .blog{
     --white-space: 1.5rem;
 
@@ -80,6 +84,10 @@ body{
     border: 1.5px solid var(--clr-gray950);
     box-shadow: 0.5rem 0.5rem var(--clr-gray950);
 }
+
+/*********************
+*content of blog card*
+**********************/
 
 .blog__content{
     --white-space: 1rem;
