@@ -21,4 +21,4 @@ Users should be able to:
 
 ### Screenshot
 
-![](./blog preview card.jpeg)
+![](./blog-preview-card.jpg)
