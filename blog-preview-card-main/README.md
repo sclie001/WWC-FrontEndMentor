@@ -10,6 +10,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
   - [Links](#Links)
 - [My process](#my-process)
   - [Built with](#built-with)
+- [Author](#author)
 
 
 ## Overview
@@ -41,3 +42,6 @@ Build from what I currently know. Then if there was something I forgot how to do
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+
+## Author
+- Frontend Mentor - [@sclie001](https://www.frontendmentor.io/profile/sclie001)
