@@ -9,6 +9,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
   - [Screenshot](#screenshot)
   - [Links](#Links)
 - [My process](#my-process)
+  - [Built with](#built-with)
 
 
 ## Overview
@@ -32,3 +33,11 @@ Users should be able to:
 ## My process
 
 Build from what I currently know. Then if there was something I forgot how to do with HTML or CSS, I used [W3Schools](https://w3schools.com) as a reference.
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
