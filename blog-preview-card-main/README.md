@@ -8,6 +8,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#Links)
+- [My process](#my-process)
 
 
 ## Overview
@@ -27,3 +28,7 @@ Users should be able to:
 ### Links
 
 - Live Site URL: [View Bog Preview Card live](https://sclie001.github.io/WWC-FrontEndMentor/blog-preview-card-main)
+
+## My process
+
+Build from what I currently know. Then if there was something I forgot how to do with HTML or CSS, I used W3Schools as a reference.
