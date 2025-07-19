@@ -96,7 +96,7 @@ body{
     gap: var(--white-space);
 }
 
-.blog__learning{
+.blog__category{
     display:inline;
 
     color: var(--clr-gray950);
