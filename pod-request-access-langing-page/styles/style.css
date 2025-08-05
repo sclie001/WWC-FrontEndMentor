@@ -29,6 +29,11 @@ body{
     font-family: "Chivo", sans-serif;
 }
 
+/*hide image by default*/
+.podcast-image{
+    display: none;/*how to hide image from screen reader?*/
+}
+
 /*container holding logo and title*/
 .icon-title{
     display: flex;
