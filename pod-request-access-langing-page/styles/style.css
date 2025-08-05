@@ -38,6 +38,10 @@ body{
 *need to figure out how to change background image at this screen size to display at last columns */
 @media (min-width: 35em){
 
+    .container-phrase-desc-form{
+        width: 82%;
+    }
+
     .container{
         height: auto;
         background-image: none;
