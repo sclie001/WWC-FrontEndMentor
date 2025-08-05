@@ -29,24 +29,20 @@ body{
     font-family: "Chivo", sans-serif;
 }
 
-/*hide image by default*/
-.podcast-image{
-    display: none;/*how to hide image from screen reader?*/
-}
-
 /*display containers at certain columns or rows in the grid
 *need to figure out how to change background image at this screen size to display at last columns */
-@media (min-width: 35em){
 
-    .container-phrase-desc-form{
-        width: 82%;
-        background-color: #121725;
-    }
+@media (min-width: 35em){
 
     .container{
         height: auto;
         background-image: none;
     }
+}
+
+/*hide image by default*/
+.podcast-image{
+    display: none;/*how to hide image from screen reader?*/
 }
 
 /*container holding logo and title*/
@@ -64,6 +60,14 @@ body{
     font-size: 30px;
     font-weight: 800;
     color: white;
+}
+
+@media (min-width: 35em){
+
+    .container-phrase-desc-form{
+        width: 82%;
+        background-color: #121725;
+    }
 }
 
 /*container holding phrase*/
