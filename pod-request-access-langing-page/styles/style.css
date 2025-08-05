@@ -34,6 +34,16 @@ body{
     display: none;/*how to hide image from screen reader?*/
 }
 
+/*display containers at certain columns or rows in the grid
+*need to figure out how to change background image at this screen size to display at last columns */
+@media (min-width: 35em){
+
+    .container{
+        height: auto;
+        background-image: none;
+    }
+}
+
 /*container holding logo and title*/
 .icon-title{
     display: flex;
