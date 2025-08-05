@@ -5,28 +5,43 @@ body{
     padding: 0;
 }
 
-/*background image blended with background color*/
-.img-container{
+/* .img-container{
     background-repeat: no-repeat;
     background-image: url("../assets/Bitmap.png"); 
     background-color: #121725; 
     opacity: 0.9;
     background-blend-mode: multiply;
-}
+} */
 
 /*container holding title, logo, phrase, description, podcast logos, and form*/
 .container{
-    display: flex;
-    flex-direction: column;
+    background-repeat: no-repeat;
+    background-image: url("../assets/Bitmap.png"); 
+    background-color: #121725; 
+    opacity: 0.9;
+    background-blend-mode: multiply;
+    background-size: cover;
+
+    display: grid;
     align-items: center;
-    height: 95lvh;
+    height: 100vh;
     padding: 16px;
     font-family: "Chivo", sans-serif;
 }
 
-/*not displayed in mobile version*/
-.container-tablet-img{
-    display: none;
+/*hide image by default*/
+.podcast-image{
+    display: none;/*how to hide image from screen reader?*/
+}
+
+/*display containers at certain columns or rows in the grid
+*need to figure out how to change background image at this screen size to display at last columns */
+@media (min-width: 35em){
+
+    .container{
+        height: auto;
+        background-image: none;
+    }
 }
 
 /*container holding logo and title*/

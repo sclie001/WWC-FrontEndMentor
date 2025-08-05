@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500..700&display=swap');
+
+:root {
+    /*colors*/
+    --clr-primary-400: hsl(158, 36%, 37%);
+    --clr-primary-500: hsl(158, 36%, 20%);
+    --clr-secondary-200: hsl(30, 38%, 92%);
+
+    --clr-neutral-900: hsl(212, 21%, 14%);
+    --clr-neutral-400: hsl(228, 12%, 48%);
+    --clr-neutral-100: hsl(0, 0%, 100%);
+
+    /*typography*/
+    --fw-regular: 500;
+    --fw-bold: 700;
+
+    --ff-accent: 'Fraunces', serif;
+    --ff-base: 'Montserrat', sans-serif;
+}
+
+/* Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  /* Remove default margin */
+  * {
+    margin: 0;
+  }
+  
+  body {
+    /*
+    Typography tweaks! 
+    Add accessible line-height */
+    line-height: 1.7;
+    /* Improve text rendering */
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  /* Improve media defaults (no overflow) */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  /* Inherit fonts for form controls */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  /* Avoid text overflows */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+  h1, h2, h3 {
+    line-height: 1;
+  }
+
+  /* general styling */
+
+  body{
+    font-family: var(--ff-base);
+    font-weight: var(--fw-regular);
+    font-size: 0.875rem;
+    color: var(--clr-neutral-400);
+    background-color: var(--clr-secondary-200);
+
+    /*for this project only b/c content is centered for all screens*/
+    display: grid;
+    min-height: 100vh;
+    place-content: center;
+    margin: 1rem;
+  }
+
+  /*utilities*/
+  .flex-group{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap; /*prevent overflow (may not need b/c screen probably not too small)*/
+    align-items: center;
+  }
+
+  .visually-hidden:not(:focus):not(:active){
+    /*screen readers*/
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    position: absolute;
+    height: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 1px;
+  }
+
+  .fs-lg{
+    font-size: 2rem;
+  }
+
+  .ff-accent{
+    font-family: var(--ff-accent);
+  }
+
+  /*button*/
+  button{
+    cursor: pointer;
+    text-decoration: none; /*in case button becomes link later on*/
+    display: inline-flex;
+    gap: 0.75rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em 1.5em;
+    border: 0;
+    border-radius: 0.5rem;
+
+    background-color: var(--clr-primary-400);
+    color: var(--clr-neutral-100);
+    font-weight: var(--fw-bold);
+  }
+
+  .button[data-icon="shopping-cart"]::before{
+    content: "";
+    background-image: url("/images/icon-cart.svg");
+    width: 15px;
+    height: 16px;
+  }
+
+  .button:is(:hover, :focus){
+    background-color: var(--clr-primary-500);
+  }
+
+  /*product styles*/
+  .product{
+    --content-padding: 1.5rem;
+    --content-spacing: 1rem;
+
+    display: grid;
+    background-color: var(--clr-neutral-100);
+    border-radius: 0.5rem;
+    overflow: hidden;/*in this proj, won't be a problem*/
+    max-width: 37.5rem;/*prevents image from getting too tall, causing growing spacing and button*/
+  }
+
+  @media (min-width: 37.5em){
+    .product{
+      --content-padding: 2rem;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .product__content{
+    display: grid;
+    gap: var(--content-spacing);
+    padding: var(--content-padding);
+  }
+
+  .product__category{
+    font-size: 0.8125rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+  }
+
+  .product__title{
+    color: var(--clr-neutral-900);
+  }
+
+  .product__price{
+    color: var(--clr-primary-400);
+  }

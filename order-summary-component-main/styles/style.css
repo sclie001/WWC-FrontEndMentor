@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+:root{
+    /*colors*/
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+    /*font size*/
+    --fs-400: 1rem;
+    --fs-200: 0.9rem;
+    /*font weight*/
+    --fw-900: 900;
+    --fw-700: 700;
+    --fw-500: 500;
+    /*font family*/
+    --ff-sans-serif: "Red Hat Display", sans-serif; 
+}
+
+h1, h4, p, body{
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+    background-image: url("/images/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--pale-blue);
+    font-family: var(--ff-sans-serif);
+}
+
+@media (min-width: 45em){
+    body{
+        background-image: url("/images/pattern-background-desktop.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right top;
+    }
+}
+
+p{
+    font-size: var(--fs-400);
+}
+
+.card{
+    border-radius: 1.25rem;
+    background-color: white;
+    overflow: hidden;
+}
+
+@media (min-width: 45em){
+    .card{
+        width: 36%;
+    }
+}
+
+.card img{
+    width: 100%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    text-align: center;
+}
+
+main > *:not(:last-child){
+    margin-bottom: 1.5rem;
+}
+
+@media (min-width: 45em){
+    main{
+        padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+    }
+}
+
+.title{
+    font-weight: var(--fw-900);
+}
+
+.order-description{
+    line-height: 25px;
+    max-width: 25ch;
+}
+
+@media (min-width: 45em){
+    .order-description{
+        max-width: 34ch;
+    }
+} 
+
+.annual-plan-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    background-color: var(--very-pale-blue);
+    padding: .5rem;
+    border-radius: 16px;
+}
+
+.title, .annual-plan-txt{
+    color: var(--dark-blue);
+}
+
+.order-description, .annual-plan-price{
+    color: var(--desaturated-blue);
+}
+
+.annual-plan-icon{
+    width:28%;
+    margin: 0 .5rem 0 .5rem;
+}
+
+.annual-plan-icon-txt-price-container{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.annual-plan-link{
+    margin: 1rem;
+    color: var(--bright-blue);
+}
+
+.annual-plan-link a:hover{
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+button{
+    width: 100%;
+    font-size: var(--fs-200);
+    padding: 1rem 2rem;
+    font-family: inherit;
+    font-weight: var(--fw-700);
+    border: none;
+    border-radius: 0.75rem;
+    cursor: pointer;
+}
+
+.payment-button{
+    background-color: var(--bright-blue);
+    box-shadow: 0 15px 30px -5px rgb(197 189 245);
+    color:white;
+}
+
+.payment-button:hover{
+    opacity: 0.75;
+}
+
+.cancel-button{
+    margin-top: 1.05rem;
+    background-color: white;
+    color: var(--desaturated-blue);
+}
+
+.cancel-button:hover{
+    color: black;
+}
+
+/*******************************
+*  Frontend Mentor attribution *
+********************************/
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

@@ -1,0 +1,36 @@
+# Avoid accidental upload of the Sketch and Figma design files
+#####################################################
+## Please do not remove lines 5 and 6 - thanks! 🙂 ##
+#####################################################
+*.sketch
+*.fig
+
+# Avoid accidental XD upload if you convert the design file
+###############################################
+## Please do not remove line 12 - thanks! 🙂 ##
+###############################################
+*.xd
+
+# Avoid your project being littered with annoying .DS_Store files!
+.DS_Store
+.prettierignore
+
+.gitignore:Zone.Identifier
+index.html:Zone.Identifier
+README-template.md
+README-template.md:Zone.Identifier
+README.md:Zone.Identifier
+style-guide.md:Zone.Identifier
+README2.md
+
+favicon-32x32.png:Zone.Identifier
+icon-cart.svg:Zone.Identifier
+image-product-desktop.jpg:Zone.Identifier
+image-product-mobile.jpg:Zone.Identifier
+
+active-states.jpg:Zone.Identifier
+desktop-design.jpg:Zone.Identifier
+desktop-preview.jpg:Zone.Identifier
+mobile-design.jpg:Zone.Identifier
+
+style-guide.md

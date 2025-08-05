@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@500..800&display=swap');
+
+:root {
+    /*colors*/
+
+    --clr-primary-400: hsl(47, 88%, 63%);   
+
+    --clr-neutral: hsl(0, 0%, 100%);
+    --clr-gray950: hsl(0, 0%, 7%);
+    --clr-gray500: hsl(0, 0%, 42%);
+    /*font family*/
+    --ff-serif: "Figtree", sans-serif; 
+    
+    --fw-bold: 800;
+    --fw-regular: 500;
+
+    /*size*/
+    --fs-sm: 0.875rem;
+}
+
+/***************
+***css resets***
+****************/
+
+/* Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+/*remove default margin*/
+* {
+    margin: 0;
+}
+
+/*improve media defaults*/
+img, picture, svg{
+    display: block;
+    max-width: 100%;
+}
+
+/*inherit fonts for form controls (in this proj, its only button*/
+button{
+    font: inherit;
+}
+
+/*avoid text overflows*/
+p, h1, h2, h3, h4, h5, h6{
+    overflow-wrap: break-word;
+}
+
+h1, h2, h3{
+    line-height: 1;
+}
+
+/****************
+*general styling*
+*****************/
+body{
+    background-color: var(--clr-primary-400);
+    font-family: var(--ff-serif);
+    color: var(--clr-gray500);
+
+    display: grid;
+    gap: 1rem;
+    min-height: 100vh;
+    place-content: center;
+    margin: 1rem;
+}
+
+/**********
+*blog card*
+************/
+
+.blog{
+    --white-space: 1.5rem;
+
+    display: grid;
+    gap: var(--white-space);
+    background-color: var(--clr-neutral);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    max-width: 21.875rem;
+
+    border: 1.5px solid var(--clr-gray950);
+    box-shadow: 0.5rem 0.5rem var(--clr-gray950);
+}
+
+/*********************
+*content of blog card*
+**********************/
+
+.blog__content{
+    --white-space: 1rem;
+
+    display: grid;
+    gap: var(--white-space);
+}
+
+.blog__category{
+    display:inline;
+
+    color: var(--clr-gray950);
+    font-weight: var(--fw-bold);
+    background-color: var(--clr-primary-400);
+    width:fit-content;
+    height: fit-content;
+    padding: 0.45rem 0.75rem;
+    border-radius: 0.375rem;
+}
+
+.blog__publishDate{
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-sm);
+    color: var(--clr-gray950);
+}
+
+.blog__title{
+    --white-space: 0.25rem;
+
+    font-weight: var(--fw-bold);
+    color: var(--clr-gray950);
+    padding-top: var(--white-space);
+}
+
+.blog__title:hover, .blog__title:focus{
+    cursor: pointer;
+    color: var(--clr-primary-400);
+}
+
+.blog__description{
+    font-size: var(--fs-sm);
+    line-height: 1.6;
+}
+
+.blog__author{
+    display: flex;
+    align-items: center;
+    gap: var(--white-space);
+}
+
+.blog__author :nth-child(1){
+    order: 2;
+}
+
+.author-image{
+   width: 2.3em;
+   height: 2.3em;
+}
+
+.blog__author > p{
+    color: var(--clr-gray950);
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-sm);
+}
+
+.blog__article-image{
+    height: auto;
+    border-radius: 0.75rem;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

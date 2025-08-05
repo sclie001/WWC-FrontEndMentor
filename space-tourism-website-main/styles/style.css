@@ -1,0 +1,463 @@
+/*Home page*/
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+/* ---------------- */
+/* Custom properties */
+/* ---------------- */
+
+:root{
+    /*colors*/
+    --clr-white: 0 0% 100%;
+    --clr-dark: 230 35% 7%;
+    --clr-light: 231 77% 90%;
+
+    /*font-sizes*/
+
+    /*most browsers have default size of 16px.
+      rem = font-size (px) given from Figma design for element / 16*/  
+    --fs-900: clamp(5rem, 9vw + 1rem, 9.375rem); /*80px*/
+    --fs-800: 3.5rem; /*56px*/
+    --fs-700: 1.5rem; /*24px*/
+    --fs-600: clamp(1.25rem, 2vw + 1rem, 2rem); /*20px(smallest) 32px (biggest for tablet and desktop)*/
+    --fs-500: 1rem; /*16px*/ 
+    --fs-400: 0.9375rem; /*15px*/
+    --fs-300: 0.875rem;/*14px*/
+    --fs-200: 0.875rem; /*14px*/
+
+    
+    /*font-families*/
+    --ff-sans-cond: "Barlow Condensed", sans-serif;
+    --ff-serif: "Bellefair", serif;
+    --ff-sans-normal: "Barlow", sans-serif;
+
+}
+
+/*tablet*/
+@media (min-width: 35em){
+    :root{
+    --fs-800: 5rem; /*80px*/
+    --fs-700: 2.5rem; /*40px*/
+    --fs-600: 2rem; /*32px*/
+    --fs-500: 1.25rem; /*20px*/ 
+    --fs-400: 1rem; /*16px*/
+    --fs-300: 1rem; /*16px*/
+    }
+}
+
+/*desktop*/
+@media (min-width: 45em){
+    :root{
+        /*font sizes*/
+        --fs-800: 6.25rem; /*100px*/
+        --fs-700: 3.5rem; /*56px*/
+        --fs-500: 1.75rem; /*28px*/
+        --fs-400: 1.125rem;/*base size, usually for text in body*/
+        
+    }
+}
+
+/* ---------------- */
+/* Reset            */
+/* ---------------- */
+
+/*reset margins*/
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture{
+    margin: 0;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p{
+    font-weight: 400;
+}
+
+body{
+    font-family: var(--ff-sans-normal);
+    color: hsl(var(--clr-white));
+    line-height: 1.5;
+    min-height: 100vh;
+    display: grid; /*tries to divide space 
+    evenly on top of page and bottom, but it is a lot of space*/
+
+    grid-template-rows: min-content 1fr;/*uses extra space top/bottom*/
+}
+
+/* ---------------- */
+/* Utility classes  */
+/* ---------------- */
+
+.flex{
+    display: flex;
+    gap: var(--gap, 1rem);
+}
+
+.d-block{
+    display: block;
+}
+
+.container{
+    padding-inline: 2em;
+    margin-inline: auto;
+    max-width: 80rem;
+}
+
+.grid-container{
+    display: grid;
+    text-align: center;
+    place-items: center; /*short for justify and align items*/
+    padding-inline: 1rem;
+    /* border: 3px solid blue; */
+}
+
+.grid-container * {
+    max-width: 50ch; /*maximum of 50 char a line*/
+}
+
+/*desktop size*/
+@media (min-width: 45em){
+    .grid-container{
+        text-align: left;
+        column-gap: var(--container-gap, 2em);
+
+        /*four columns, 1st and last are space. 2 children.
+        1fr max space which pushes content in the middle*/
+        grid-template-columns: minmax(2em, 1fr) repeat(2, minmax(0, 40rem)) minmax(2em, 1fr);
+        /*not taking up the height of page (leaving a lot of space below grid), so have to 
+        make body be grid*/
+    }
+
+    .grid-container > *:first-child{
+        grid-column: 2;
+        /* outline: 1px solid red; */
+    }
+    
+    .grid-container > *:last-child{
+        grid-column: 3;
+        /* outline: 1px solid yellow; */
+    }
+
+    .grid-container--home{
+        padding-bottom: max(6rem, 20vh);
+        align-items: end;
+    }
+}
+
+/* .grid-container > *:first-child{
+    outline: 1px solid red;
+}
+
+.grid-container > *:last-child{
+    outline: 1px solid yellow;
+} */
+
+.sr-only{
+    /*screen readers*/
+    position: absolute; 
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px; 
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap; /* added line */
+    border: 0;
+}
+
+/*typography*/
+
+.ff-sans-cond { font-family: var(--ff-sans-cond); }
+.ff-serif { font-family: var(--ff-serif); }
+.ff-sans-normal { font-family: var(--ff-sans-normal); }
+
+.letter-spacing-1 { letter-spacing: 4.75px; }
+.letter-spacing-2 { letter-spacing: 2.7px; }
+.letter-spacing-3 { letter-spacing: 2.35px }
+
+.uppercase { text-transform: uppercase; }
+
+.fs-900 { font-size: var(--fs-900); }
+.fs-800 { font-size: var(--fs-800); }
+.fs-700 { font-size: var(--fs-700); }
+.fs-600 { font-size: var(--fs-600); }
+.fs-500 { font-size: var(--fs-500); }
+.fs-400 { font-size: var(--fs-400); }
+.fs-300 { font-size: var(--fs-300); }
+.fs-200 { font-size: var(--fs-200); }
+
+/*colors*/
+
+.bg-dark { background-color: hsl(var(--clr-dark)); }
+.bg-accent { background-color: hsl( var(--clr-light) );}
+.bg-white { background-color: hsl( var(--clr-white) );}
+
+.text-dark { color: hsl(var(--clr-dark)); }
+.text-accent { color: hsl(var(--clr-light)); }
+.text-white { color: hsl(var(--clr-white)); }
+
+
+/* ---------------- */
+/* Components       */
+/* ---------------- */
+
+/*primary header*/
+
+.primary-header{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    margin: 1.5rem clamp(1.5rem, 3vw, 3rem);
+}
+
+/*default styling first, then media query.
+  Media query takes styling here unless you specify another value*/
+.primary-navigation{
+    --gap: clamp(1.5rem, 5vw, 3.5rem);
+    --underline-gap: 2rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: hsl(var(--clr-dark) / 0.91);
+}
+
+.primary-navigation a {
+    text-decoration: none;
+}
+
+.primary-navigation a > span{
+    font-weight: 700;
+    margin-right: 12px;
+}
+
+.mobile-nav-toggle{
+    display:none;
+}
+
+@supports (backdrop-filter: blur(1rem)){ /*put any value, can put 0*/
+    .primary-navigation{
+        background-color: hsl(var(--clr-white) / 0.05);
+        backdrop-filter: blur(1.5rem);
+    }
+}
+
+/*phone devices (up to 560px)*/
+@media screen and (max-width: 35em){/*treat Safari similar to other browsers using em instead of rem*/
+    .primary-navigation{
+        flex-direction: column;
+        position: fixed;
+        inset: 0 0 0 30%;
+        z-index: 1000;
+        padding: min(20rem, 15vh) 2rem;
+        --underline-gap: 0.5rem;
+        transform: translateX(100%);
+        transition: transform 500ms ease-in-out;
+    }
+
+    .primary-navigation.underline-indicators > *{
+        border: none;
+    }
+
+    .primary-navigation[data-visible = "true"]{
+        transform: translateX(0);
+    }
+
+    .mobile-nav-toggle{
+        display: block;
+        position: absolute;
+        top: 2rem;
+        right: 1rem;
+        background: transparent;
+        background-image: url("../assets/shared/icon-hamburger.svg");
+        background-repeat: no-repeat;
+        z-index: 2000;
+        width: 1.5rem;
+        aspect-ratio: 1;
+        border: none;
+    }
+
+    .mobile-nav-toggle[aria-expanded = "true"]{
+        background-image: url("../assets/shared/icon-close.svg");
+    }
+}
+
+/*tablet screens*/
+@media screen and (min-width: 35em){
+    .primary-navigation{
+        padding-inline: clamp(3rem, 7vw, 7rem);
+    }
+}
+
+/*tablet screens; smooth transition of padding from tablet all the way to desktop*/
+@media screen and (min-width: 35em) and (max-width: 44.999em){
+    .primary-navigation a > span{
+        display: none;
+    }
+}
+
+/*laptops and desktops*/
+@media screen and (min-width: 45em){
+    /*decorative line that runs after logo and through begining of nav*/
+    .primary-header::after{
+        content: '';
+        width: 100%;
+        height: 1px;
+        margin-right: -2.5rem;/*allows line to run into nav*/
+        background: hsl(var(--clr-white) / .25);
+        order: 1; /*only recommended for decorative elements*/
+        z-index: 1;
+    }
+
+    nav{
+        order: 2;/*reference to decorative line in primary-header*/
+    }
+
+    .primary-navigation{
+        margin-block: 2rem;
+    }
+    
+}
+
+/*used for links of home page and tabs of destination page, hence select all children '*' */
+.underline-indicators > * {
+    padding: var(--underline-gap, 1rem) 0; /*set default value for created var on top/bottom padding*/
+    border-bottom: .2rem solid hsl(var(--clr-white) / 0);/* white with opacity 0*/
+}
+
+.underline-indicators > *:hover,
+.underline-indicators > *:focus{
+    border-color: hsl(var(--clr-white) / .5);
+}
+
+.underline-indicators > .active{
+    border-color: hsl(var(--clr-white) / 1);
+}
+
+/*navigation bar*/
+
+
+/* .container-hamburger-close-icon{
+    margin: 8px;
+    padding: 24px 16px 0 24px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#hamburger-menu, #close-icon{
+    color: #D0D6F9;
+    width: 24px;
+    height: 21px;
+}
+
+.links-list{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(97, 97, 97, 0.2);
+    backdrop-filter: blur(5px);
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: "Barlow Condensed", sans-serif;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    /*browser support*//*
+}*/
+
+/*@media (max-width: 35em){ /*treat Safari similar to other browsers using em instead of rem*//*
+    .links-list{
+        flex-direction: column;
+        position: fixed;
+        z-index: 1000; 
+        inset: 0 0 0 30%;
+        list-style-type: none;
+        padding: min(20rem, 15vh) 2rem;
+        margin: 0;
+    }
+
+} */
+/*---end of navigation bar--*/
+
+/* .container-description{
+    padding: 0 32px 0 24px;
+} */
+
+/*----------------------------- */
+/* explore button on home pagen */
+/*------------------------------*/
+
+.circle-explore{
+    font-size: 2rem;
+    display: inline-flex;/*can use flex or grid*/
+    justify-content: center;
+    align-items: center;
+    position: relative; /*containing block*/
+    padding: 1em;
+    z-index: 1;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    text-decoration: none;
+
+}
+
+.circle-explore::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;/*need to add z-index 1 to orig so it does not get lost behind background image*/
+    background-color: rgba(255, 255, 255, .15);
+    border-radius: inherit;
+    opacity: 0;
+    transition: opacity 500ms linear, transform 750ms ease-in-out;
+}
+
+.circle-explore:hover::after,
+.circle-explore:focus::after{
+    opacity: 1;
+    transform: scale(1.5);
+}
+
+/*------------------------*/
+/* Home background        */
+/*------------------------*/
+
+body{
+    background-position: bottom center;
+    background-size: cover;
+}
+
+.home{
+    background-image: url("../assets/home/background-home-mobile.jpg");
+}
+
+/*Medium devices (landscape tablets, 768px and up*/
+@media screen and (min-width: 35em){
+    .home{
+        background-position: center center;
+        background-image: url("../assets/home/background-home-tablet.jpg");
+    }
+}
+
+/*laptop and desktops*/
+@media screen and (min-width: 45em){
+    .home{
+        background-image: url("../assets/home/background-home-desktop.jpg");
+    }
+}
