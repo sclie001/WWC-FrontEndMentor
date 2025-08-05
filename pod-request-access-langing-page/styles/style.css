@@ -95,6 +95,13 @@ body{
     padding: 0 39px 0 39px;
 }
 
+@media (min-width: 35em){
+    .container-description{
+        margin: 0;
+        padding: 0;
+    }
+}
+
 .description{
     color:#C2CBE5;
     font-size: 15px;
