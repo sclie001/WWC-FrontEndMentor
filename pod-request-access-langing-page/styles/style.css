@@ -5,12 +5,7 @@ body{
     padding: 0;
 }
 
-<<<<<<< HEAD
-/*background image blended with background color*/
-.img-container{
-=======
 /* .img-container{
->>>>>>> background-img
     background-repeat: no-repeat;
     background-image: url("../assets/Bitmap.png"); 
     background-color: #121725; 
@@ -27,8 +22,7 @@ body{
     background-blend-mode: multiply;
     background-size: cover;
 
-    display: flex;
-    flex-direction: column;
+    display: grid;
     align-items: center;
     height: 95lvh;
     padding: 16px;
