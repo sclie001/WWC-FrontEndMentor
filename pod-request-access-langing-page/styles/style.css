@@ -24,7 +24,7 @@ body{
 
     display: grid;
     align-items: center;
-    height: 95lvh;
+    height: 100vh;
     padding: 16px;
     font-family: "Chivo", sans-serif;
 }
