@@ -101,6 +101,13 @@ body{
     font-weight: 100;
 }
 
+@media (min-width: 35em){
+
+    .phrase-container, .container-description{
+        text-align: left;
+    } 
+}
+
 /*podcast icons*/
 .container-pod-icons{
     display: flex;
