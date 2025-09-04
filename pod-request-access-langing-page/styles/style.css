@@ -6,13 +6,8 @@ body{
 }
 
 /*container holding title, logo, phrase, description, podcast logos, and form*/
-.container{
-    background-repeat: no-repeat;
-    background-image: url("../assets/Bitmap.png"); 
+.container{ 
     background-color: #121725; 
-    opacity: 0.9;
-    background-blend-mode: multiply;
-    background-size: cover;
 
     display: grid;
     align-items: center;
@@ -24,6 +19,11 @@ body{
 /*hide image by default*/
 .podcast-image{
     display: none;/*how to hide image from screen reader?*/
+}
+
+.background-img{
+    background-image: url("../assets/Bitmap.png");
+    background-repeat: no-repeat;
 }
 
 /*display containers at certain columns or rows in the grid
