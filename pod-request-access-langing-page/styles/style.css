@@ -50,6 +50,12 @@ body{
     }
 }
 
+@media (min-width: 35em){
+    .background-img{
+        background-position-x: right;
+    }
+}
+
 /*container holding logo and title*/
 .icon-title{
     display: flex;
