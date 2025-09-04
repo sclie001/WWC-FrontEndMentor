@@ -22,12 +22,26 @@ body{
     background-blend-mode: multiply;
     background-size: cover;
 
-    display: flex;
-    flex-direction: column;
+    display: grid;
     align-items: center;
-    height: 95lvh;
+    height: 100vh;
     padding: 16px;
     font-family: "Chivo", sans-serif;
+}
+
+/*hide image by default*/
+.podcast-image{
+    display: none;/*how to hide image from screen reader?*/
+}
+
+/*display containers at certain columns or rows in the grid
+*need to figure out how to change background image at this screen size to display at last columns */
+@media (min-width: 35em){
+
+    .container{
+        /* height: auto; */ 
+        background-blend-mode: normal       
+    }
 }
 
 /*container holding logo and title*/
@@ -60,7 +74,7 @@ body{
     text-transform: uppercase;
 }
 
-.phase-everywhere{
+.phrase-everywhere{
     color: white;
 }
 
@@ -114,6 +128,7 @@ body{
     display: inline-block;
     box-sizing: border-box;
     background-color: #2C344B;
+    color: #FFFFFF;
 }
 
 ::placeholder{
