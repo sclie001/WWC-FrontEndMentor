@@ -39,8 +39,8 @@ body{
 @media (min-width: 35em){
 
     .container{
-        height: auto;
-        background-image: none;
+        /* height: auto; */
+        
     }
 }
 
