@@ -5,14 +5,6 @@ body{
     padding: 0;
 }
 
-/* .img-container{
-    background-repeat: no-repeat;
-    background-image: url("../assets/Bitmap.png"); 
-    background-color: #121725; 
-    opacity: 0.9;
-    background-blend-mode: multiply;
-} */
-
 /*container holding title, logo, phrase, description, podcast logos, and form*/
 .container{
     background-repeat: no-repeat;
