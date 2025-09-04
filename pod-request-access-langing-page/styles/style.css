@@ -16,10 +16,24 @@ body{
     font-family: "Chivo", sans-serif;
 }
 
+/*display containers at certain columns or rows in the grid
+*need to figure out how to change background image at this screen size to display at last columns */
+@media (min-width: 35em){
+
+    .container{
+        /* height: auto; */ 
+        background-blend-mode: normal       
+    }
+}
+
 /*hide image by default*/
 .podcast-image{
     display: none;/*how to hide image from screen reader?*/
 }
+
+/******************
+* background image*
+*******************/
 
 .background-img{
     background-image: url("../assets/Bitmap.png");
@@ -33,16 +47,6 @@ body{
         opacity: 0.9;
         background-blend-mode: multiply;
         background-size: cover;
-    }
-}
-
-/*display containers at certain columns or rows in the grid
-*need to figure out how to change background image at this screen size to display at last columns */
-@media (min-width: 35em){
-
-    .container{
-        /* height: auto; */ 
-        background-blend-mode: normal       
     }
 }
 
